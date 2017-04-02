@@ -1,0 +1,11 @@
+RewriteEngine on
+
+# To prevent infinite looping add an extra RewriteCond line on top of your rule:
+# RewriteCond %{ENV:REDIRECT_STATUS} ^$
+
+# If a directory or a file exists, use the request directly
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Otherwise forward the request to index.php
+RewriteRule . index.php
