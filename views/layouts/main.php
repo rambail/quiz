@@ -27,7 +27,7 @@ AppAsset::register($this);
 <div class="wrap">
     <?php
     NavBar::begin([
-        'brandLabel' => 'My Company',
+        'brandLabel' => 'CMRL Quiz',
         'brandUrl' => Yii::$app->homeUrl,
         'options' => [
             'class' => 'navbar-inverse navbar-fixed-top',
@@ -37,9 +37,24 @@ AppAsset::register($this);
         'options' => ['class' => 'navbar-nav navbar-right'],
         'items' => [
             ['label' => 'Home', 'url' => ['/site/index']],
-            ['label' => 'About', 'url' => ['/site/about']],
-            ['label' => 'Contact', 'url' => ['/site/contact']],
-            Yii::$app->user->isGuest ? (
+            ['label' => 'Settings',
+                'items' => [
+                    '<li class="dropdown-header">Maintenance Sheets</li>',
+                    '<li class="divider"></li>',
+                    ['label' => 'Level', 'url' => ['/level/index']],
+                    ['label' => 'Category', 'url' => ['/category/index']],
+                    ['label' => 'Group', 'url' => ['/group/index']],
+                ],
+            ],
+            ['label' => 'Questions', 
+                'items' => [
+                    '<li class="dropdown-header">Question Bank</li>',
+                    '<li class="divider"></li>',
+                    ['label' => 'All Questions','url' => ['/question-bank/index']],
+                    ['label' => 'Add new','url' => ['/question-bank/create']],
+                ],
+            ],
+             Yii::$app->user->isGuest ? (
                 ['label' => 'Login', 'url' => ['/site/login']]
             ) : (
                 '<li>'

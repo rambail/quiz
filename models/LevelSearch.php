@@ -18,7 +18,7 @@ class LevelSearch extends Level
     public function rules()
     {
         return [
-            [['lid'], 'integer'],
+            [['level_id'], 'integer'],
             [['level_name'], 'safe'],
         ];
     }
@@ -59,7 +59,7 @@ class LevelSearch extends Level
 
         // grid filtering conditions
         $query->andFilterWhere([
-            'lid' => $this->lid,
+            'level_id' => $this->level_id,
         ]);
 
         $query->andFilterWhere(['like', 'level_name', $this->level_name]);

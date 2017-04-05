@@ -472,16 +472,16 @@ hr {background:#ccc !important;}
 .tall-header-page .wsite-header {
 	width: 722px;
 	height: 245px;
-	background: url(banner-tall.jpg) no-repeat;
+	background: url(metro1.jpg) no-repeat;
 }
 
-/* PAGE TYPE: banner-short
+/* PAGE TYPE: metro3
 --------------------------------------------------------------------------------*/
 
 .short-header-page .wsite-header {
 	width: 722px;
 	height: 145px;
-	background: url(banner-short.jpg) no-repeat;
+	background: url(metro3.jpg) no-repeat;
 }
 
 .short-header-page #t {
@@ -500,7 +500,7 @@ hr {background:#ccc !important;}
 	height: 120px;
 }
 
-/* TOP RIGHT: banner-landing
+/* TOP RIGHT: metro1
 --------------------------------------------------------------------------------*/
 
 .landing-page #banner {
@@ -516,7 +516,7 @@ hr {background:#ccc !important;}
 .landing-page .wsite-header {
 	width: 412px;
 	height: 305px;
-	background: url(banner-landing.jpg) no-repeat;
+	background: url(metro1.jpg) no-repeat;
 }
 
 .landing-banner-outer {
@@ -563,13 +563,13 @@ hr {background:#ccc !important;}
 	margin: 0;
 }
 
-/* TOP RIGHT: banner-short
+/* TOP RIGHT: metro3
 --------------------------------------------------------------------------------*/
 
 .tall-header-page .wsite-header {
 	width: 722px;
 	height: 245px;
-	background: url(banner-tall.jpg) no-repeat;
+	background: url(metro1.jpg) no-repeat;
 }
 
 .tall-header-page #t {
@@ -630,7 +630,7 @@ hr {background:#ccc !important;}
 	width: 560px;
 	height: 115px;
 	border: none;
-	background: url(banner-splash.jpg) no-repeat;
+	background: url(metro1.jpg) no-repeat;
 }
 
 .splash-page #wrap {

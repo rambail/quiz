@@ -87,15 +87,15 @@
  #tr { background: url(theme/tr.png?635674) no-repeat; right: 0; top: 0; }
  #bl { background: url(theme/bl.png?635674) no-repeat; left: 0; bottom: 0; }
  #br { background: url(theme/br.png?635674) no-repeat; right: 0; bottom: 0; }
- .tall-header-page .wsite-header { width: 722px; height: 245px; background: url(theme/banner-tall.jpg?635674) no-repeat; }
- .short-header-page .wsite-header { width: 722px; height: 145px; background: url(theme/banner-short.jpg?635674) no-repeat; }
+ .tall-header-page .wsite-header { width: 722px; height: 245px; background: url(theme/metro3.jpg?635674) no-repeat; }
+ .short-header-page .wsite-header { width: 722px; height: 145px; background: url(theme/metro3.jpg?635674) no-repeat; }
  .short-header-page #t { width: 700px; }
  .short-header-page #r { height: 120px; }
  .short-header-page #b { width: 700px; }
  .short-header-page #l { height: 120px; }
  .landing-page #banner { }
  #bannerleft { clear: left; float: left; width: 412px; position: relative; }
- .landing-page .wsite-header { width: 412px; height: 305px; background: url(theme/banner-landing.jpg?635674) no-repeat; }
+ .landing-page .wsite-header { width: 412px; height: 305px; background: url(theme/metro1.jpg?635674) no-repeat; }
  .landing-banner-outer { display: table; #position: relative; overflow: hidden; }
  .landing-banner-mid { #position: absolute; #top: 50%; display: table-cell; vertical-align: middle; }
  .landing-banner-inner { #position: relative; #top: -50%; }
@@ -104,7 +104,7 @@
  #bannerright div.paragraph { color: #878787; padding: 20px 0px; line-height: 140%; margin: 0; }
  #bannerright p { color: #878787; padding: 20px 0px; line-height: 140%; margin: 0; }
  #bannerright .wsite-button { margin: 0; }
- .tall-header-page .wsite-header { width: 722px; height: 245px; background: url(theme/banner-tall.jpg?635674) no-repeat; }
+ .tall-header-page .wsite-header { width: 722px; height: 245px; background: url(theme/metro3.jpg?635674) no-repeat; }
  .tall-header-page #t { width: 700px; }
  .tall-header-page #r { height: 220px; }
  .tall-header-page #b { width: 700px; }

@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Apr 02, 2017 at 12:31 PM
+-- Generation Time: Apr 05, 2017 at 02:20 PM
 -- Server version: 5.5.54-0ubuntu0.14.04.1
 -- PHP Version: 5.5.9-1ubuntu4.21
 
@@ -23,24 +23,24 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Table structure for table `answers`
+-- Table structure for table `answer`
 --
 
-CREATE TABLE IF NOT EXISTS `answers` (
-  `answers_id` int(11) NOT NULL AUTO_INCREMENT,
-  `qbank_id` int(11) NOT NULL,
-  `q_option` text NOT NULL,
+CREATE TABLE IF NOT EXISTS `answer` (
+  `answer_id` int(11) NOT NULL AUTO_INCREMENT,
+  `question_bank_id` int(11) NOT NULL,
+  `question_option` text NOT NULL,
   `id` int(11) NOT NULL,
-  `score_u` float NOT NULL DEFAULT '0',
+  `score` float NOT NULL DEFAULT '0',
   `result_id` int(11) NOT NULL,
-  PRIMARY KEY (`answers_id`)
+  PRIMARY KEY (`answer_id`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=133 ;
 
 --
--- Dumping data for table `answers`
+-- Dumping data for table `answer`
 --
 
-INSERT INTO `answers` (`answers_id`, `qbank_id`, `q_option`, `id`, `score_u`, `result_id`) VALUES
+INSERT INTO `answer` (`answer_id`, `question_bank_id`, `question_option`, `id`, `score`, `result_id`) VALUES
 (20, 1, '57', 1, 1, 1),
 (21, 3, '52', 1, 0.5, 1),
 (22, 3, '54', 1, 0.5, 1),
@@ -94,7 +94,7 @@ CREATE TABLE IF NOT EXISTS `group` (
   `group_id` int(11) NOT NULL AUTO_INCREMENT,
   `group_name` varchar(1000) NOT NULL,
   `price` float NOT NULL,
-  `valevel_id_for_days` int(11) NOT NULL DEFAULT '0',
+  `valid_for_days` int(11) NOT NULL DEFAULT '0',
   PRIMARY KEY (`group_id`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=3 ;
 
@@ -102,7 +102,7 @@ CREATE TABLE IF NOT EXISTS `group` (
 -- Dumping data for table `group`
 --
 
-INSERT INTO `group` (`group_id`, `group_name`, `price`, `valevel_id_for_days`) VALUES
+INSERT INTO `group` (`group_id`, `group_name`, `price`, `valid_for_days`) VALUES
 (1, 'CMRL', 0, 0),
 (2, 'FMS contractor', 0, 30);
 
@@ -130,16 +130,30 @@ INSERT INTO `level` (`level_id`, `level_name`) VALUES
 -- --------------------------------------------------------
 
 --
--- Table structure for table `options`
+-- Table structure for table `match_column`
 --
 
-CREATE TABLE IF NOT EXISTS `options` (
-  `options_id` int(11) NOT NULL AUTO_INCREMENT,
-  `qbank_id` int(11) NOT NULL,
-  `q_option` text NOT NULL,
-  `q_option_match` varchar(1000) DEFAULT NULL,
+CREATE TABLE IF NOT EXISTS `match_column` (
+  `match_column_id` int(11) NOT NULL AUTO_INCREMENT,
+  `question_bank_id` int(11) NOT NULL,
+  `column` varchar(1000) NOT NULL,
+  `column_match` varchar(1000) NOT NULL,
   `score` float NOT NULL DEFAULT '0',
-  PRIMARY KEY (`options_id`)
+  PRIMARY KEY (`match_column_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `option`
+--
+
+CREATE TABLE IF NOT EXISTS `option` (
+  `option_id` int(11) NOT NULL AUTO_INCREMENT,
+  `question_bank_id` int(11) NOT NULL,
+  `question_option` varchar(1000) NOT NULL,
+  `score` float NOT NULL DEFAULT '0',
+  PRIMARY KEY (`option_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
 
 -- --------------------------------------------------------
@@ -158,26 +172,6 @@ CREATE TABLE IF NOT EXISTS `payment` (
   `payment_status` varchar(100) NOT NULL DEFAULT 'Pending',
   `transaction_id` varchar(1000) NOT NULL,
   PRIMARY KEY (`payment_id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
-
--- --------------------------------------------------------
-
---
--- Table structure for table `qbank`
---
-
-CREATE TABLE IF NOT EXISTS `qbank` (
-  `qbank_id` int(11) NOT NULL AUTO_INCREMENT,
-  `question_type` varchar(100) NOT NULL DEFAULT 'Multiple Choice Single Answer',
-  `question` text NOT NULL,
-  `description` text NOT NULL,
-  `category_id` int(11) NOT NULL,
-  `level_id` int(11) NOT NULL,
-  `no_time_served` int(11) NOT NULL DEFAULT '0',
-  `no_time_corrected` int(11) NOT NULL DEFAULT '0',
-  `no_time_incorrected` int(11) NOT NULL DEFAULT '0',
-  `no_time_unattempted` int(11) NOT NULL DEFAULT '0',
-  PRIMARY KEY (`qbank_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
 
 -- --------------------------------------------------------
@@ -207,6 +201,49 @@ INSERT INTO `qcl` (`qcl_id`, `quiz_id`, `category_id`, `level_id`, `noq`) VALUES
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `question_bank`
+--
+
+CREATE TABLE IF NOT EXISTS `question_bank` (
+  `question_bank_id` int(11) NOT NULL AUTO_INCREMENT,
+  `question_type_id` int(11) NOT NULL DEFAULT '1',
+  `nos_option` int(11) NOT NULL DEFAULT '2',
+  `question` text NOT NULL,
+  `description` text NOT NULL,
+  `category_id` int(11) NOT NULL DEFAULT '1',
+  `level_id` int(11) NOT NULL DEFAULT '1',
+  `no_time_served` int(11) NOT NULL DEFAULT '0',
+  `no_time_corrected` int(11) NOT NULL DEFAULT '0',
+  `no_time_incorrected` int(11) NOT NULL DEFAULT '0',
+  `no_time_unattempted` int(11) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`question_bank_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `question_type`
+--
+
+CREATE TABLE IF NOT EXISTS `question_type` (
+  `question_type_id` int(11) NOT NULL AUTO_INCREMENT,
+  `question_type` varchar(100) NOT NULL,
+  PRIMARY KEY (`question_type_id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=5 ;
+
+--
+-- Dumping data for table `question_type`
+--
+
+INSERT INTO `question_type` (`question_type_id`, `question_type`) VALUES
+(1, 'Multiple Choice Single Answer'),
+(2, 'Multiple Choice Multiple Answer'),
+(3, 'Match the Column'),
+(4, 'Essay');
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `quiz`
 --
 
@@ -217,7 +254,7 @@ CREATE TABLE IF NOT EXISTS `quiz` (
   `start_date` int(11) NOT NULL,
   `end_date` int(11) NOT NULL,
   `group_id` text NOT NULL,
-  `qbank_ids` text NOT NULL,
+  `question_bank_ids` text NOT NULL,
   `noq` int(11) NOT NULL,
   `correct_score` float NOT NULL,
   `incorrect_score` float NOT NULL,
@@ -238,7 +275,7 @@ CREATE TABLE IF NOT EXISTS `quiz` (
 -- Dumping data for table `quiz`
 --
 
-INSERT INTO `quiz` (`quiz_id`, `quiz_name`, `description`, `start_date`, `end_date`, `group_id`, `qbank_ids`, `noq`, `correct_score`, `incorrect_score`, `ip_address`, `duration`, `maximum_attempts`, `pass_percentage`, `view_answer`, `camera_req`, `question_selection`, `gen_certificate`, `certificate_text`, `with_login`) VALUES
+INSERT INTO `quiz` (`quiz_id`, `quiz_name`, `description`, `start_date`, `end_date`, `group_id`, `question_bank_ids`, `noq`, `correct_score`, `incorrect_score`, `ip_address`, `duration`, `maximum_attempts`, `pass_percentage`, `view_answer`, `camera_req`, `question_selection`, `gen_certificate`, `certificate_text`, `with_login`) VALUES
 (1, 'Sample Quiz', 'Sample Quiz Sample Quiz', 1460344840, 1491880840, '3,1', '1,3,6,7', 4, 1, 0, '', 10, 10, 50, 1, 1, 0, 0, NULL, 1),
 (2, 'Sample Quiz 2', '<p>Sample Quiz 2</p>', 1457687593, 1491898393, '4,3,1', '', 5, 1, 0, '', 100, 10, 50, 1, 0, 1, 1, 'ID: #{result_id}<br>\r\n \r\n<br><br>\r\n<center>\r\n<font style=''font-size:32px;''>Certificate</font><br><br><br>\r\n<h4>This is certified that {first_name}  {last_name} has attempted the quiz ''{quiz_name}'' and obtained {percentage_obtained}% marks.<br>\r\nHis/her result status is {status}<br>\r\n</h4>\r\n\r\n</center>\r\n<br><br><br><br><br><br> \r\n{qr_code}<br>\r\nDate: {generated_date}', 1);
 
@@ -257,7 +294,7 @@ CREATE TABLE IF NOT EXISTS `result` (
   `end_time` int(11) NOT NULL,
   `categories` text NOT NULL,
   `category_range` text NOT NULL,
-  `r_qbank_ids` text NOT NULL,
+  `r_question_bank_ids` text NOT NULL,
   `individual_time` text NOT NULL,
   `total_time` int(11) NOT NULL DEFAULT '0',
   `score_obtained` float NOT NULL DEFAULT '0',
@@ -273,7 +310,7 @@ CREATE TABLE IF NOT EXISTS `result` (
 -- Dumping data for table `result`
 --
 
-INSERT INTO `result` (`result_id`, `quiz_id`, `id`, `result_status`, `start_time`, `end_time`, `categories`, `category_range`, `r_qbank_ids`, `individual_time`, `total_time`, `score_obtained`, `percentage_obtained`, `attempted_ip`, `score_individual`, `photo`, `manual_valuation`) VALUES
+INSERT INTO `result` (`result_id`, `quiz_id`, `id`, `result_status`, `start_time`, `end_time`, `categories`, `category_range`, `r_question_bank_ids`, `individual_time`, `total_time`, `score_obtained`, `percentage_obtained`, `attempted_ip`, `score_individual`, `photo`, `manual_valuation`) VALUES
 (1, 2, 1, 'Open', 1490539671, 0, '', '', '', '', 0, 0, 0, '127.0.0.1', '', '', 0);
 
 -- --------------------------------------------------------

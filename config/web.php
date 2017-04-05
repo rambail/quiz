@@ -9,7 +9,7 @@ $config = [
     'components' => [
         'request' => [
             // !!! insert a secret key in the following (if it is empty) - this is required by cookie validation
-            'cookieValidationKey' => 'bp-oQkCahglItxokeoap7nEz98sQWST4',
+            'cookieValidationKey' => '2BB1D9AEA4E1AFE85C086246AA04237082F4ACA66E77327C3964967BB9B9C4BA',
         ],
         'cache' => [
             'class' => 'yii\caching\FileCache',
@@ -37,23 +37,21 @@ $config = [
                 ],
             ],
         ],
-        'view' => [
-            'class' => 'yii\web\View',
-            'theme' => [
-              'class' => 'yii\base\Theme',
-              'pathMap' => ['@app/views' => 'themes/zen'],
-              'baseUrl'   => 'themes/zen'
-            ]
-        ],
-        'db' => require(__DIR__ . '/db.php'),
-        /*
         'urlManager' => [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
             'rules' => [
+                '<alias:\w+>' => 'site/<alias>',
             ],
         ],
-        */
+        /*'view' => [
+            'theme' => [
+                'pathMap' => ['@app/views' => 'themes/zen'],
+                'baseUrl'   => 'themes/zen'
+            ],
+        ],*/
+        'db' => require(__DIR__ . '/db.php'),
+        
     ],
     'params' => $params,
 ];

@@ -3,16 +3,16 @@
 namespace app\controllers;
 
 use Yii;
-use app\models\Group;
-use app\models\GroupSearch;
+use app\models\Option;
+use app\models\OptionSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
 
 /**
- * GroupsController implements the CRUD actions for Group model.
+ * OptionController implements the CRUD actions for Option model.
  */
-class GroupsController extends Controller
+class OptionController extends Controller
 {
     /**
      * @inheritdoc
@@ -30,12 +30,12 @@ class GroupsController extends Controller
     }
 
     /**
-     * Lists all Group models.
+     * Lists all Option models.
      * @return mixed
      */
     public function actionIndex()
     {
-        $searchModel = new GroupSearch();
+        $searchModel = new OptionSearch();
         $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
 
         return $this->render('index', [
@@ -45,7 +45,7 @@ class GroupsController extends Controller
     }
 
     /**
-     * Displays a single Group model.
+     * Displays a single Option model.
      * @param integer $id
      * @return mixed
      */
@@ -57,16 +57,16 @@ class GroupsController extends Controller
     }
 
     /**
-     * Creates a new Group model.
+     * Creates a new Option model.
      * If creation is successful, the browser will be redirected to the 'view' page.
      * @return mixed
      */
     public function actionCreate()
     {
-        $model = new Group();
+        $model = new Option();
 
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
-            return $this->redirect(['view', 'id' => $model->gid]);
+            return $this->redirect(['view', 'id' => $model->option_id]);
         } else {
             return $this->render('create', [
                 'model' => $model,
@@ -75,7 +75,7 @@ class GroupsController extends Controller
     }
 
     /**
-     * Updates an existing Group model.
+     * Updates an existing Option model.
      * If update is successful, the browser will be redirected to the 'view' page.
      * @param integer $id
      * @return mixed
@@ -85,7 +85,7 @@ class GroupsController extends Controller
         $model = $this->findModel($id);
 
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
-            return $this->redirect(['view', 'id' => $model->gid]);
+            return $this->redirect(['view', 'id' => $model->option_id]);
         } else {
             return $this->render('update', [
                 'model' => $model,
@@ -94,7 +94,7 @@ class GroupsController extends Controller
     }
 
     /**
-     * Deletes an existing Group model.
+     * Deletes an existing Option model.
      * If deletion is successful, the browser will be redirected to the 'index' page.
      * @param integer $id
      * @return mixed
@@ -107,15 +107,15 @@ class GroupsController extends Controller
     }
 
     /**
-     * Finds the Group model based on its primary key value.
+     * Finds the Option model based on its primary key value.
      * If the model is not found, a 404 HTTP exception will be thrown.
      * @param integer $id
-     * @return Group the loaded model
+     * @return Option the loaded model
      * @throws NotFoundHttpException if the model cannot be found
      */
     protected function findModel($id)
     {
-        if (($model = Group::findOne($id)) !== null) {
+        if (($model = Option::findOne($id)) !== null) {
             return $model;
         } else {
             throw new NotFoundHttpException('The requested page does not exist.');

@@ -7,7 +7,7 @@ use Yii;
 /**
  * This is the model class for table "level".
  *
- * @property integer $lid
+ * @property integer $level_id
  * @property string $level_name
  */
 class Level extends \yii\db\ActiveRecord
@@ -37,7 +37,7 @@ class Level extends \yii\db\ActiveRecord
     public function attributeLabels()
     {
         return [
-            'lid' => 'Lid',
+            'level_id' => 'Level ID',
             'level_name' => 'Level Name',
         ];
     }

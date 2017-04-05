@@ -18,7 +18,7 @@ class GroupSearch extends Group
     public function rules()
     {
         return [
-            [['gid', 'valid_for_days'], 'integer'],
+            [['group_id', 'valid_for_days'], 'integer'],
             [['group_name'], 'safe'],
             [['price'], 'number'],
         ];
@@ -60,7 +60,7 @@ class GroupSearch extends Group
 
         // grid filtering conditions
         $query->andFilterWhere([
-            'gid' => $this->gid,
+            'group_id' => $this->group_id,
             'price' => $this->price,
             'valid_for_days' => $this->valid_for_days,
         ]);

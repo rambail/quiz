@@ -7,7 +7,7 @@ use Yii;
 /**
  * This is the model class for table "group".
  *
- * @property integer $gid
+ * @property integer $group_id
  * @property string $group_name
  * @property double $price
  * @property integer $valid_for_days
@@ -41,7 +41,7 @@ class Group extends \yii\db\ActiveRecord
     public function attributeLabels()
     {
         return [
-            'gid' => 'Gid',
+            'group_id' => 'Group ID',
             'group_name' => 'Group Name',
             'price' => 'Price',
             'valid_for_days' => 'Valid For Days',
