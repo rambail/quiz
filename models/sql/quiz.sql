@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Apr 05, 2017 at 02:20 PM
+-- Generation Time: Apr 09, 2017 at 06:31 PM
 -- Server version: 5.5.54-0ubuntu0.14.04.1
 -- PHP Version: 5.5.9-1ubuntu4.21
 
@@ -154,7 +154,20 @@ CREATE TABLE IF NOT EXISTS `option` (
   `question_option` varchar(1000) NOT NULL,
   `score` float NOT NULL DEFAULT '0',
   PRIMARY KEY (`option_id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=8 ;
+
+--
+-- Dumping data for table `option`
+--
+
+INSERT INTO `option` (`option_id`, `question_bank_id`, `question_option`, `score`) VALUES
+(1, 1, 'a', 0),
+(2, 1, 'b', 1),
+(3, 1, 'c', 0),
+(4, 2, 'd', 0.333333),
+(5, 2, 'e', 0),
+(6, 2, 'f', 0.333333),
+(7, 2, 'g', 0.333333);
 
 -- --------------------------------------------------------
 
@@ -217,7 +230,15 @@ CREATE TABLE IF NOT EXISTS `question_bank` (
   `no_time_incorrected` int(11) NOT NULL DEFAULT '0',
   `no_time_unattempted` int(11) NOT NULL DEFAULT '0',
   PRIMARY KEY (`question_bank_id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=3 ;
+
+--
+-- Dumping data for table `question_bank`
+--
+
+INSERT INTO `question_bank` (`question_bank_id`, `question_type_id`, `nos_option`, `question`, `description`, `category_id`, `level_id`, `no_time_served`, `no_time_corrected`, `no_time_incorrected`, `no_time_unattempted`) VALUES
+(1, 1, 3, 'first', 'yes', 2, 2, 0, 0, 0, 0),
+(2, 2, 4, 'second', 'no', 2, 4, 0, 0, 0, 0);
 
 -- --------------------------------------------------------
 

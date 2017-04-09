@@ -7,6 +7,7 @@ use app\models\QuestionBank;
 use app\models\QuestionType;
 use app\models\Level;
 use app\models\Category;
+use app\models\Option;
 use app\models\QuestionBankSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
@@ -69,21 +70,33 @@ class QuestionBankController extends Controller
     {
         $model = new QuestionBank();
 
+        // Get all values for drop down box
         $category = ArrayHelper::map(Category::find()->all(), 'category_id', 'category_name');
         $questionType = ArrayHelper::map(QuestionType::find()->all(), 'question_type_id', 'question_type');
         $level = ArrayHelper::map(Level::find()->all(), 'level_id', 'level_name');
         $nosOption = [
                 2 => 2,
+                3 => 3,
                 4 => 4,
                 5 => 5,
-                ];
+                ]; // Option value restricted to divisible values
 
         $this->view->params['category'] = $category;
         $this->view->params['questionType'] = $questionType;
         $this->view->params['level'] = $level;
         $this->view->params['nosOption'] = $nosOption;
 
-        if ($model->load(Yii::$app->request->post()) && $model->save()) {
+        if(!empty($_POST)){
+            $model->attributes=$_POST['QuestionBank'];
+            $valid=$model->validate();
+            if ($valid && $model->save()) {
+                if ($model->question_type_id ==  1) { // It is of the type Multiple Question Single ansswer
+                    return $this->redirect(['option', 'id' => $model->question_bank_id]);
+                }
+                if ($model->question_type_id ==  2) { // It is of the type Multiple Question Single ansswer
+                    return $this->redirect(['multi-option', 'id' => $model->question_bank_id]);
+                }
+            }
             return $this->redirect(['view', 'id' => $model->question_bank_id]);
         } else {
             return $this->render('create', [
@@ -94,6 +107,7 @@ class QuestionBankController extends Controller
                 'nosOption'=>$nosOption,
             ]);
         }
+
     }
 
     /**
@@ -141,6 +155,81 @@ class QuestionBankController extends Controller
             return $model;
         } else {
             throw new NotFoundHttpException('The requested page does not exist.');
+        }
+    }
+
+    /*
+    * Function for Multiple Question Single Ansswer
+    */
+    public function actionOption( $id){
+
+        $optionModel = new Option(); // get the option model
+        $model = $this->findModel($id);
+
+        if(!empty($_POST)){
+            $correct = $_POST['correct']; // Sl.no of the correct answer
+            for( $i = 1; $i <= $model->nos_option; $i++ ) {
+                //reset the model, needed for saving in loop
+                $optionModel->option_id = NULL; //primary key(auto increment id) id
+                $optionModel->isNewRecord = true;
+                $optionModel->score = 0; //reset the score
+
+                // One mark for correct answer
+                if ($i == $correct) {
+                    $optionModel->score = 1;
+                } 
+
+                //save the model
+                $optionModel->question_bank_id = $id;
+                $optionModel->question_option = $_POST['option_' . $i ];
+                $optionModel->save();
+            }
+            return $this->redirect(['index']); // Go to theindex view of question bank
+
+        } else { // Go to option form
+            return $this->render('option', [
+                'model' => $model,
+           ]);
+        }
+    }
+
+    /*
+    * Function for Multiple Question Multiple Ansswers
+    */
+    public function actionMultiOption( $id){
+
+        $optionModel = new Option(); // get the option model
+        $model = $this->findModel($id);
+
+        if(!empty($_POST)){
+            $correct = $_POST['correct']; // Sl.no of the correct answer
+            $correctCount = count($correct); // number of correct answer
+            $score = 1/$correctCount; // fraction marks for each correct answer
+            
+            for( $i = 1; $i <= $model->nos_option; $i++ ) {
+                //reset the model, needed for saving in loop
+                $optionModel->option_id = NULL; //primary key(auto increment id) id
+                $optionModel->isNewRecord = true;
+                $optionModel->score = 0; //reset the score
+
+                // assign score if the answer is correct
+                foreach($correct as $val) {
+                    if(intval($val) == $i) {
+                        $optionModel->score = $score;
+                    }
+                }
+
+                //save the model
+                $optionModel->question_bank_id = $id;
+                $optionModel->question_option = $_POST['option_' . $i ];
+                $optionModel->save();
+            }
+            return $this->redirect(['index']); // Go to theindex view of question bank
+
+        } else { // Go to option form
+            return $this->render('multi-option', [
+                'model' => $model,
+            ]);
         }
     }
 }
