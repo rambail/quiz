@@ -9,6 +9,7 @@ use app\models\Level;
 use app\models\Category;
 use app\models\Option;
 use app\models\MatchColumn;
+use app\models\Essay;
 use app\models\QuestionBankSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
@@ -94,11 +95,14 @@ class QuestionBankController extends Controller
                 if ($model->question_type_id ==  1) { // It is of the type Multiple Question Single ansswer
                     return $this->redirect(['option', 'id' => $model->question_bank_id]);
                 }
-                if ($model->question_type_id ==  2) { // It is of the type Multiple Question Single ansswer
+                if ($model->question_type_id ==  2) { // It is of the type Multiple Question Multiple ansswers
                     return $this->redirect(['multi-option', 'id' => $model->question_bank_id]);
                 }
-                if ($model->question_type_id ==  3) { // It is of the type Multiple Question Single ansswer
+                if ($model->question_type_id ==  3) { // It is of the type Match the columns
                     return $this->redirect(['match-column', 'id' => $model->question_bank_id]);
+                }
+                if ($model->question_type_id ==  4) { // It is of the type Essay
+                    return $this->redirect(['essay', 'id' => $model->question_bank_id]);
                 }
             }
             return $this->redirect(['view', 'id' => $model->question_bank_id]);
@@ -238,15 +242,15 @@ class QuestionBankController extends Controller
     }
 
     /*
-    * Function for Multiple Question Multiple Ansswers
+    * Function for Matching the columns
     */
     public function actionMatchColumn( $id){
 
-        $columnModel = new MatchColumn(); // get the option model
+        $columnModel = new MatchColumn(); // get the match column model
         $model = $this->findModel($id);
 
         if(!empty($_POST)){
-            $score = 1/$model->nos_option; // fraction marks for each correct answer
+            $score = 1/$model->nos_option; // fraction marks for each correct answer is reciprocal of column number
             
             for( $i = 1; $i <= $model->nos_option; $i++ ) {
                 //reset the model, needed for saving in loop
@@ -255,9 +259,9 @@ class QuestionBankController extends Controller
 
                 //save the model
                 $columnModel->question_bank_id = $id;
-                $columnModel->column = $_POST['col1_' . $i ];
-                $columnModel->column_match = $_POST['col2_' . $i ];
-                $columnModel->score = $score;
+                $columnModel->column = $_POST['col1_' . $i ]; // column to be matched
+                $columnModel->column_match = $_POST['col2_' . $i ]; // correct column
+                $columnModel->score = $score; // equal score for each column
                 $columnModel->save();
             }
             return $this->redirect(['index']); // Go to theindex view of question bank
@@ -268,4 +272,26 @@ class QuestionBankController extends Controller
             ]);
         }
     }
+    /*
+    * Function for Essay
+    */
+    public function actionEssay( $id){
+
+        $essayModel = new Essay(); // get the match column model
+        $model = $this->findModel($id);
+
+        if(!empty($_POST)){
+            $essayModel->question_bank_id = $id;
+            $essayModel->essay = $_POST['essay']; // get the essay
+            $essayModel->save();
+             
+            return $this->redirect(['index']); // Go to theindex view of question bank
+
+        } else { // Go to option form
+            return $this->render('essay', [
+                'model' => $model,
+            ]);
+        }
+    }
+
 }

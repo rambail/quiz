@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Apr 16, 2017 at 12:31 PM
+-- Generation Time: Apr 16, 2017 at 07:04 PM
 -- Server version: 5.5.54-0ubuntu0.14.04.1
 -- PHP Version: 5.5.9-1ubuntu4.21
 
@@ -83,6 +83,19 @@ INSERT INTO `category` (`category_id`, `category_name`) VALUES
 (2, 'AC'),
 (3, 'TVS'),
 (4, 'Traction');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `essay`
+--
+
+CREATE TABLE IF NOT EXISTS `essay` (
+  `essay_id` int(11) NOT NULL AUTO_INCREMENT,
+  `question_bank_id` int(11) NOT NULL,
+  `essay_text` longtext NOT NULL,
+  PRIMARY KEY (`essay_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
 
 -- --------------------------------------------------------
 

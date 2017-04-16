@@ -1079,3 +1079,374 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1492325303.161
     'REQUEST_TIME' => 1492325303
 ]
+2017-04-16 13:47:23 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "zen/css/site.css".' in /var/www/html/quiz/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /var/www/html/quiz/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('zen/css/site.cs...', Array)
+#1 /var/www/html/quiz/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/html/quiz/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/html/quiz/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /var/www/html/quiz/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/quiz/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-04-16 13:47:23 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'e47a2892b7a7594e319326b79fa8b1eef8bec947d2865e2c7241ce7f76d4a3f8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"NDqXgTSy6-sSFUEfLX8vf4gxQQP8GNoV\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://localhost/quiz/web/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,en-GB;q=0.6'
+    'HTTP_COOKIE' => '_csrf=e47a2892b7a7594e319326b79fa8b1eef8bec947d2865e2c7241ce7f76d4a3f8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22NDqXgTSy6-sSFUEfLX8vf4gxQQP8GNoV%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/quiz/web/index.php'
+    'REMOTE_PORT' => '39037'
+    'REDIRECT_URL' => '/quiz/web/zen/css/site.css'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/quiz/web/zen/css/site.css'
+    'SCRIPT_NAME' => '/quiz/web/index.php'
+    'PHP_SELF' => '/quiz/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1492350443.195
+    'REQUEST_TIME' => 1492350443
+]
+2017-04-16 13:47:26 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "zen/css/site.css".' in /var/www/html/quiz/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /var/www/html/quiz/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('zen/css/site.cs...', Array)
+#1 /var/www/html/quiz/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/html/quiz/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/html/quiz/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /var/www/html/quiz/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/quiz/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-04-16 13:47:26 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'e47a2892b7a7594e319326b79fa8b1eef8bec947d2865e2c7241ce7f76d4a3f8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"NDqXgTSy6-sSFUEfLX8vf4gxQQP8GNoV\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://localhost/quiz/web/question-bank/create'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,en-GB;q=0.6'
+    'HTTP_COOKIE' => '_csrf=e47a2892b7a7594e319326b79fa8b1eef8bec947d2865e2c7241ce7f76d4a3f8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22NDqXgTSy6-sSFUEfLX8vf4gxQQP8GNoV%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/quiz/web/index.php'
+    'REMOTE_PORT' => '39037'
+    'REDIRECT_URL' => '/quiz/web/zen/css/site.css'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/quiz/web/zen/css/site.css'
+    'SCRIPT_NAME' => '/quiz/web/index.php'
+    'PHP_SELF' => '/quiz/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1492350446.884
+    'REQUEST_TIME' => 1492350446
+]
+2017-04-16 13:48:30 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "zen/css/site.css".' in /var/www/html/quiz/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /var/www/html/quiz/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('zen/css/site.cs...', Array)
+#1 /var/www/html/quiz/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/html/quiz/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/html/quiz/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /var/www/html/quiz/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/quiz/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-04-16 13:48:30 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'e47a2892b7a7594e319326b79fa8b1eef8bec947d2865e2c7241ce7f76d4a3f8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"NDqXgTSy6-sSFUEfLX8vf4gxQQP8GNoV\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://localhost/quiz/web/question-bank/essay?id=4'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,en-GB;q=0.6'
+    'HTTP_COOKIE' => '_csrf=e47a2892b7a7594e319326b79fa8b1eef8bec947d2865e2c7241ce7f76d4a3f8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22NDqXgTSy6-sSFUEfLX8vf4gxQQP8GNoV%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/quiz/web/index.php'
+    'REMOTE_PORT' => '39054'
+    'REDIRECT_URL' => '/quiz/web/zen/css/site.css'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/quiz/web/zen/css/site.css'
+    'SCRIPT_NAME' => '/quiz/web/index.php'
+    'PHP_SELF' => '/quiz/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1492350510.059
+    'REQUEST_TIME' => 1492350510
+]
+2017-04-16 13:49:42 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "zen/css/site.css".' in /var/www/html/quiz/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /var/www/html/quiz/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('zen/css/site.cs...', Array)
+#1 /var/www/html/quiz/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/html/quiz/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/html/quiz/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /var/www/html/quiz/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/quiz/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-04-16 13:49:42 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'e47a2892b7a7594e319326b79fa8b1eef8bec947d2865e2c7241ce7f76d4a3f8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"NDqXgTSy6-sSFUEfLX8vf4gxQQP8GNoV\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://localhost/quiz/web/question-bank/essay?id=4'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,en-GB;q=0.6'
+    'HTTP_COOKIE' => '_csrf=e47a2892b7a7594e319326b79fa8b1eef8bec947d2865e2c7241ce7f76d4a3f8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22NDqXgTSy6-sSFUEfLX8vf4gxQQP8GNoV%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/quiz/web/index.php'
+    'REMOTE_PORT' => '39055'
+    'REDIRECT_URL' => '/quiz/web/zen/css/site.css'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/quiz/web/zen/css/site.css'
+    'SCRIPT_NAME' => '/quiz/web/index.php'
+    'PHP_SELF' => '/quiz/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1492350582.52
+    'REQUEST_TIME' => 1492350582
+]
+2017-04-16 13:50:35 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "zen/css/site.css".' in /var/www/html/quiz/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /var/www/html/quiz/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('zen/css/site.cs...', Array)
+#1 /var/www/html/quiz/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/html/quiz/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/html/quiz/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /var/www/html/quiz/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/quiz/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-04-16 13:50:35 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'e47a2892b7a7594e319326b79fa8b1eef8bec947d2865e2c7241ce7f76d4a3f8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"NDqXgTSy6-sSFUEfLX8vf4gxQQP8GNoV\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://localhost/quiz/web/question-bank/essay?id=4'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,en-GB;q=0.6'
+    'HTTP_COOKIE' => '_csrf=e47a2892b7a7594e319326b79fa8b1eef8bec947d2865e2c7241ce7f76d4a3f8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22NDqXgTSy6-sSFUEfLX8vf4gxQQP8GNoV%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/quiz/web/index.php'
+    'REMOTE_PORT' => '39061'
+    'REDIRECT_URL' => '/quiz/web/zen/css/site.css'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/quiz/web/zen/css/site.css'
+    'SCRIPT_NAME' => '/quiz/web/index.php'
+    'PHP_SELF' => '/quiz/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1492350635.579
+    'REQUEST_TIME' => 1492350635
+]
+2017-04-16 13:51:01 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "zen/css/site.css".' in /var/www/html/quiz/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /var/www/html/quiz/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('zen/css/site.cs...', Array)
+#1 /var/www/html/quiz/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/html/quiz/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/html/quiz/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /var/www/html/quiz/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/quiz/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-04-16 13:51:00 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'e47a2892b7a7594e319326b79fa8b1eef8bec947d2865e2c7241ce7f76d4a3f8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"NDqXgTSy6-sSFUEfLX8vf4gxQQP8GNoV\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://localhost/quiz/web/question-bank/essay?id=4'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,en-GB;q=0.6'
+    'HTTP_COOKIE' => '_csrf=e47a2892b7a7594e319326b79fa8b1eef8bec947d2865e2c7241ce7f76d4a3f8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22NDqXgTSy6-sSFUEfLX8vf4gxQQP8GNoV%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/quiz/web/index.php'
+    'REMOTE_PORT' => '39067'
+    'REDIRECT_URL' => '/quiz/web/zen/css/site.css'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/quiz/web/zen/css/site.css'
+    'SCRIPT_NAME' => '/quiz/web/index.php'
+    'PHP_SELF' => '/quiz/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1492350660.99
+    'REQUEST_TIME' => 1492350660
+]
+2017-04-16 13:51:17 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "zen/css/site.css".' in /var/www/html/quiz/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /var/www/html/quiz/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('zen/css/site.cs...', Array)
+#1 /var/www/html/quiz/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/html/quiz/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/html/quiz/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /var/www/html/quiz/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/quiz/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-04-16 13:51:17 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'e47a2892b7a7594e319326b79fa8b1eef8bec947d2865e2c7241ce7f76d4a3f8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"NDqXgTSy6-sSFUEfLX8vf4gxQQP8GNoV\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://localhost/quiz/web/question-bank/essay?id=4'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,en-GB;q=0.6'
+    'HTTP_COOKIE' => '_csrf=e47a2892b7a7594e319326b79fa8b1eef8bec947d2865e2c7241ce7f76d4a3f8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22NDqXgTSy6-sSFUEfLX8vf4gxQQP8GNoV%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/quiz/web/index.php'
+    'REMOTE_PORT' => '39073'
+    'REDIRECT_URL' => '/quiz/web/zen/css/site.css'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/quiz/web/zen/css/site.css'
+    'SCRIPT_NAME' => '/quiz/web/index.php'
+    'PHP_SELF' => '/quiz/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1492350677.029
+    'REQUEST_TIME' => 1492350677
+]
