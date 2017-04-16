@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Apr 09, 2017 at 06:31 PM
+-- Generation Time: Apr 16, 2017 at 12:31 PM
 -- Server version: 5.5.54-0ubuntu0.14.04.1
 -- PHP Version: 5.5.9-1ubuntu4.21
 
@@ -140,7 +140,17 @@ CREATE TABLE IF NOT EXISTS `match_column` (
   `column_match` varchar(1000) NOT NULL,
   `score` float NOT NULL DEFAULT '0',
   PRIMARY KEY (`match_column_id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=5 ;
+
+--
+-- Dumping data for table `match_column`
+--
+
+INSERT INTO `match_column` (`match_column_id`, `question_bank_id`, `column`, `column_match`, `score`) VALUES
+(1, 3, 'WPC', 'Bridging of 2 feeders ', 0.25),
+(2, 3, 'Distance protection', 'Bird nesting wires', 0.25),
+(3, 3, 'Interrupter', 'Extending supply', 0.25),
+(4, 3, 'Neutral section', 'Track Magnet', 0.25);
 
 -- --------------------------------------------------------
 
@@ -154,20 +164,22 @@ CREATE TABLE IF NOT EXISTS `option` (
   `question_option` varchar(1000) NOT NULL,
   `score` float NOT NULL DEFAULT '0',
   PRIMARY KEY (`option_id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=8 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=10 ;
 
 --
 -- Dumping data for table `option`
 --
 
 INSERT INTO `option` (`option_id`, `question_bank_id`, `question_option`, `score`) VALUES
-(1, 1, 'a', 0),
-(2, 1, 'b', 1),
-(3, 1, 'c', 0),
-(4, 2, 'd', 0.333333),
-(5, 2, 'e', 0),
-(6, 2, 'f', 0.333333),
-(7, 2, 'g', 0.333333);
+(1, 1, 'To boost low voltage.', 0),
+(2, 1, 'To give redundancy in supply.', 1),
+(3, 1, 'To improve power factor.', 0),
+(4, 1, 'To eliminate harmonics.', 0),
+(5, 1, 'There is no topology of ring main.', 0),
+(6, 2, 'Variable speed drive', 0.5),
+(7, 2, 'Safe ethernet', 0),
+(8, 2, 'Water tank', 0),
+(9, 2, 'Fire rated fans', 0.5);
 
 -- --------------------------------------------------------
 
@@ -230,15 +242,16 @@ CREATE TABLE IF NOT EXISTS `question_bank` (
   `no_time_incorrected` int(11) NOT NULL DEFAULT '0',
   `no_time_unattempted` int(11) NOT NULL DEFAULT '0',
   PRIMARY KEY (`question_bank_id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=3 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=4 ;
 
 --
 -- Dumping data for table `question_bank`
 --
 
 INSERT INTO `question_bank` (`question_bank_id`, `question_type_id`, `nos_option`, `question`, `description`, `category_id`, `level_id`, `no_time_served`, `no_time_corrected`, `no_time_incorrected`, `no_time_unattempted`) VALUES
-(1, 1, 3, 'first', 'yes', 2, 2, 0, 0, 0, 0),
-(2, 2, 4, 'second', 'no', 2, 4, 0, 0, 0, 0);
+(1, 1, 5, 'What is Ring Main?', 'Main distribution network which can be fed by 2 supply from either side is called Ring Main', 1, 1, 0, 0, 0, 0),
+(2, 2, 4, 'Which of the listed equipment belong to Air conditioning system?', 'The equipment forms a part of air conditioning system.', 2, 2, 0, 0, 0, 0),
+(3, 3, 4, 'Match the following equipment and function in Traction system.', 'The equipment with its function has to be matched in columns', 4, 4, 0, 0, 0, 0);
 
 -- --------------------------------------------------------
 

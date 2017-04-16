@@ -20,8 +20,8 @@ $this->params['breadcrumbs'][] = $this->title;
 
     <?php for( $i = 1; $i <= $model->nos_option; $i++ ) { ?>
         <div class="row">
-            <input type="radio" name="correct" value="<?= $i ?>" > 
-            <textarea name="<?= 'option_' . $i ?>" cols="80" rows="3"></textarea>
+            <textarea name="<?= 'col1_' . $i ?>" cols="40" rows="2"></textarea>
+            <textarea name="<?= 'col2_' . $i ?>" cols="40" rows="2"></textarea>
             <br>
         </div>
     <?php } ?>

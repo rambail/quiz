@@ -8,6 +8,7 @@ use app\models\QuestionType;
 use app\models\Level;
 use app\models\Category;
 use app\models\Option;
+use app\models\MatchColumn;
 use app\models\QuestionBankSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
@@ -95,6 +96,9 @@ class QuestionBankController extends Controller
                 }
                 if ($model->question_type_id ==  2) { // It is of the type Multiple Question Single ansswer
                     return $this->redirect(['multi-option', 'id' => $model->question_bank_id]);
+                }
+                if ($model->question_type_id ==  3) { // It is of the type Multiple Question Single ansswer
+                    return $this->redirect(['match-column', 'id' => $model->question_bank_id]);
                 }
             }
             return $this->redirect(['view', 'id' => $model->question_bank_id]);
@@ -228,6 +232,38 @@ class QuestionBankController extends Controller
 
         } else { // Go to option form
             return $this->render('multi-option', [
+                'model' => $model,
+            ]);
+        }
+    }
+
+    /*
+    * Function for Multiple Question Multiple Ansswers
+    */
+    public function actionMatchColumn( $id){
+
+        $columnModel = new MatchColumn(); // get the option model
+        $model = $this->findModel($id);
+
+        if(!empty($_POST)){
+            $score = 1/$model->nos_option; // fraction marks for each correct answer
+            
+            for( $i = 1; $i <= $model->nos_option; $i++ ) {
+                //reset the model, needed for saving in loop
+                $columnModel->match_column_id = NULL; //primary key(auto increment id) id
+                $columnModel->isNewRecord = true;
+
+                //save the model
+                $columnModel->question_bank_id = $id;
+                $columnModel->column = $_POST['col1_' . $i ];
+                $columnModel->column_match = $_POST['col2_' . $i ];
+                $columnModel->score = $score;
+                $columnModel->save();
+            }
+            return $this->redirect(['index']); // Go to theindex view of question bank
+
+        } else { // Go to option form
+            return $this->render('match-column', [
                 'model' => $model,
             ]);
         }
