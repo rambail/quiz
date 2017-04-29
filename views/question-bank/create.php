@@ -31,8 +31,15 @@ $this->params['breadcrumbs'][] = $this->title;
 	    <div class="col-lg-8">        
 	    	<?= $form->field($model, 'question')->textarea(['rows' => 2]) ?>
 	        <?= $form->field($model, 'description')->textarea(['rows' => 6]) ?>
+	        <?= $form->field($model, 'has_figure')->checkbox(); ?>
+		</div>
+		<div class="col-lg-2">
+				<?= $form->field($model, 'max_mark')->textInput(); ?>
 		</div>
 	</div>
+	<div class="row">
+	</div>
+
 	<div class="form-group">
 	    <?= Html::submitButton('Next' , ['class' => 'btn btn-success']) ?>
 	</div>

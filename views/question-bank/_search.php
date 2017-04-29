@@ -29,6 +29,10 @@ use yii\widgets\ActiveForm;
 
     <?php // echo $form->field($model, 'level_id') ?>
 
+    <?php // echo $form->field($model, 'has_figure') ?> 
+ 
+    <?php // echo $form->field($model, 'max_mark') ?> 
+ 
     <?php // echo $form->field($model, 'no_time_served') ?>
 
     <?php // echo $form->field($model, 'no_time_corrected') ?>

@@ -35,10 +35,12 @@ $this->params['breadcrumbs'][] = $this->title;
             'description:ntext',
             'category_id',
             'level_id',
-            'no_time_served:datetime',
-            'no_time_corrected:datetime',
-            'no_time_incorrected:datetime',
-            'no_time_unattempted:datetime',
+            'has_figure',
+            'max_mark',
+            'no_time_served',
+            'no_time_corrected',
+            'no_time_incorrected',
+            'no_time_unattempted',
         ],
     ]) ?>
 

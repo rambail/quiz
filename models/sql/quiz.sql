@@ -3,8 +3,8 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Apr 16, 2017 at 07:04 PM
--- Server version: 5.5.54-0ubuntu0.14.04.1
+-- Generation Time: Apr 29, 2017 at 09:23 AM
+-- Server version: 5.5.55-0ubuntu0.14.04.1
 -- PHP Version: 5.5.9-1ubuntu4.21
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
@@ -100,6 +100,20 @@ CREATE TABLE IF NOT EXISTS `essay` (
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `figure_question`
+--
+
+CREATE TABLE IF NOT EXISTS `figure_question` (
+  `figure_id` int(11) NOT NULL AUTO_INCREMENT,
+  `figure` longblob NOT NULL,
+  `caption` varchar(200) NOT NULL,
+  `nos_question` int(11) NOT NULL,
+  PRIMARY KEY (`figure_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `group`
 --
 
@@ -118,6 +132,21 @@ CREATE TABLE IF NOT EXISTS `group` (
 INSERT INTO `group` (`group_id`, `group_name`, `price`, `valid_for_days`) VALUES
 (1, 'CMRL', 0, 0),
 (2, 'FMS contractor', 0, 30);
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `image`
+--
+
+CREATE TABLE IF NOT EXISTS `store_image` (
+  `image_id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `question_bank_id` int(11) DEFAULT NULL,
+  `file_name` varchar(255) DEFAULT NULL,
+  `file_size` int(11) DEFAULT NULL,
+  `nos_question` int(11) DEFAULT NULL,
+  PRIMARY KEY (`image_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
 
 -- --------------------------------------------------------
 
@@ -149,6 +178,7 @@ INSERT INTO `level` (`level_id`, `level_name`) VALUES
 CREATE TABLE IF NOT EXISTS `match_column` (
   `match_column_id` int(11) NOT NULL AUTO_INCREMENT,
   `question_bank_id` int(11) NOT NULL,
+  `image_id` int(11) DEFAULT '0',
   `column` varchar(1000) NOT NULL,
   `column_match` varchar(1000) NOT NULL,
   `score` float NOT NULL DEFAULT '0',
@@ -159,11 +189,11 @@ CREATE TABLE IF NOT EXISTS `match_column` (
 -- Dumping data for table `match_column`
 --
 
-INSERT INTO `match_column` (`match_column_id`, `question_bank_id`, `column`, `column_match`, `score`) VALUES
-(1, 3, 'WPC', 'Bridging of 2 feeders ', 0.25),
-(2, 3, 'Distance protection', 'Bird nesting wires', 0.25),
-(3, 3, 'Interrupter', 'Extending supply', 0.25),
-(4, 3, 'Neutral section', 'Track Magnet', 0.25);
+INSERT INTO `match_column` (`match_column_id`, `question_bank_id`, `image_id`, `column`, `column_match`, `score`) VALUES
+(1, 3, 0, 'WPC', 'Bridging of 2 feeders ', 0.25),
+(2, 3, 0, 'Distance protection', 'Bird nesting wires', 0.25),
+(3, 3, 0, 'Interrupter', 'Extending supply', 0.25),
+(4, 3, 0, 'Neutral section', 'Track Magnet', 0.25);
 
 -- --------------------------------------------------------
 
@@ -177,7 +207,7 @@ CREATE TABLE IF NOT EXISTS `option` (
   `question_option` varchar(1000) NOT NULL,
   `score` float NOT NULL DEFAULT '0',
   PRIMARY KEY (`option_id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=10 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=70 ;
 
 --
 -- Dumping data for table `option`
@@ -192,7 +222,67 @@ INSERT INTO `option` (`option_id`, `question_bank_id`, `question_option`, `score
 (6, 2, 'Variable speed drive', 0.5),
 (7, 2, 'Safe ethernet', 0),
 (8, 2, 'Water tank', 0),
-(9, 2, 'Fire rated fans', 0.5);
+(9, 2, 'Fire rated fans', 0.5),
+(10, 4, 'True', 0),
+(11, 4, 'False', 1),
+(12, 5, 'True', 0),
+(13, 5, 'False', 1),
+(14, 6, 'True', 0),
+(15, 6, 'False', 1),
+(16, 7, 'True', 1),
+(17, 7, 'False', 0),
+(18, 8, 'True', 0),
+(19, 8, 'False', 1),
+(20, 9, 'True', 1),
+(21, 9, 'False', 0),
+(22, 10, 'True', 0),
+(23, 10, 'False', 1),
+(24, 11, 'True', 0),
+(25, 11, 'False', 1),
+(26, 12, 'True', 0),
+(27, 12, 'False', 1),
+(28, 13, 'True', 1),
+(29, 13, 'False', 0),
+(30, 14, 'True', 0),
+(31, 14, 'False', 1),
+(32, 15, 'True', 1),
+(33, 15, 'False', 0),
+(34, 16, 'True', 0),
+(35, 16, 'False', 1),
+(36, 17, 'True', 1),
+(37, 17, 'False', 0),
+(38, 18, 'True', 1),
+(39, 18, 'False', 0),
+(40, 19, 'True', 1),
+(41, 19, 'False', 0),
+(42, 20, 'True', 0),
+(43, 20, 'False', 1),
+(44, 21, 'True', 1),
+(45, 21, 'False', 0),
+(46, 22, 'True', 0),
+(47, 22, 'False', 1),
+(48, 23, 'True', 0),
+(49, 23, 'False', 1),
+(50, 24, 'True', 0),
+(51, 24, 'False', 1),
+(52, 25, 'True', 1),
+(53, 25, 'False', 0),
+(54, 26, 'True', 0),
+(55, 26, 'False', 1),
+(56, 27, 'True', 1),
+(57, 27, 'False', 0),
+(58, 28, 'True', 1),
+(59, 28, 'False', 0),
+(60, 29, 'hi', 0),
+(61, 29, 'bye', 0),
+(62, 29, 'no', 1),
+(63, 29, 'yes', 0),
+(64, 30, 'check', 4),
+(65, 30, 'should be 4', 0),
+(66, 31, 'correct', 2),
+(67, 31, 'not correct', 0),
+(68, 31, 'not correct', 0),
+(69, 31, 'correct', 2);
 
 -- --------------------------------------------------------
 
@@ -250,21 +340,48 @@ CREATE TABLE IF NOT EXISTS `question_bank` (
   `description` text NOT NULL,
   `category_id` int(11) NOT NULL DEFAULT '1',
   `level_id` int(11) NOT NULL DEFAULT '1',
+  `has_figure` int(1) NOT NULL DEFAULT '0',
+  `max_mark` int(11) NOT NULL DEFAULT '1',
   `no_time_served` int(11) NOT NULL DEFAULT '0',
   `no_time_corrected` int(11) NOT NULL DEFAULT '0',
   `no_time_incorrected` int(11) NOT NULL DEFAULT '0',
   `no_time_unattempted` int(11) NOT NULL DEFAULT '0',
   PRIMARY KEY (`question_bank_id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=4 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=29 ;
 
 --
 -- Dumping data for table `question_bank`
 --
 
-INSERT INTO `question_bank` (`question_bank_id`, `question_type_id`, `nos_option`, `question`, `description`, `category_id`, `level_id`, `no_time_served`, `no_time_corrected`, `no_time_incorrected`, `no_time_unattempted`) VALUES
-(1, 1, 5, 'What is Ring Main?', 'Main distribution network which can be fed by 2 supply from either side is called Ring Main', 1, 1, 0, 0, 0, 0),
-(2, 2, 4, 'Which of the listed equipment belong to Air conditioning system?', 'The equipment forms a part of air conditioning system.', 2, 2, 0, 0, 0, 0),
-(3, 3, 4, 'Match the following equipment and function in Traction system.', 'The equipment with its function has to be matched in columns', 4, 4, 0, 0, 0, 0);
+INSERT INTO `question_bank` (`question_bank_id`, `question_type_id`, `nos_option`, `question`, `description`, `category_id`, `level_id`, `has_figure`, `max_mark`, `no_time_served`, `no_time_corrected`, `no_time_incorrected`, `no_time_unattempted`) VALUES
+(1, 1, 5, 'What is Ring Main?', 'Main distribution network which can be fed by 2 supply from either side is called Ring Main', 1, 1, 0, 1, 0, 0, 0, 0),
+(2, 2, 4, 'Which of the listed equipment belong to Air conditioning system?', 'The equipment forms a part of air conditioning system.', 2, 2, 0, 1, 0, 0, 0, 0),
+(3, 3, 4, 'Match the following equipment and function in Traction system.', 'The equipment with its function has to be matched in columns', 4, 4, 0, 1, 0, 0, 0, 0),
+(4, 1, 2, 'Normal Mode TVS System is fully Automatic', 'Normal Mode TVS System is fully Automatic', 3, 1, 0, 1, 0, 0, 0, 0),
+(5, 1, 2, 'Trackway Exhaust System will not operate during Normal Mode', 'Trackway Exhaust System will not operate during Normal Mode', 3, 1, 0, 1, 0, 0, 0, 0),
+(6, 1, 2, 'Emergency Mode TVS System is fully Automatic', 'Emergency Mode TVS System is fully Automatic', 3, 1, 0, 1, 0, 0, 0, 0),
+(7, 1, 2, 'TVS System Can be control & Monitor from OCC SCADA system', 'TVS System Can be control & Monitor from OCC SCADA system', 3, 1, 0, 1, 0, 0, 0, 0),
+(8, 1, 2, 'TVS System can be controlled & Monitored from Station Control Room', 'TVS System can be controlled & Monitored from Station Control Room', 3, 1, 0, 1, 0, 0, 0, 0),
+(9, 1, 2, 'In Normal Mode 40 C to be maintained in Tunnel by TVS System', 'In Normal Mode 40 C to be maintained in Tunnel by TVS System', 3, 1, 0, 1, 0, 0, 0, 0),
+(10, 1, 2, 'Draught Relief Damper will be opened during emergency Mode', 'Draught Relief Damper will be opened during emergency Mode', 3, 1, 0, 1, 0, 0, 0, 0),
+(11, 1, 2, 'Congested Mode TVS System is fully Automatic', 'Congested Mode TVS System is fully Automatic', 3, 1, 0, 1, 0, 0, 0, 0),
+(12, 1, 2, 'TVS System is fire fighting system ', 'TVS System is fire fighting system ', 3, 1, 0, 1, 0, 0, 0, 0),
+(13, 1, 2, 'During emergency,  air will be pushed in to tunnel opposite to the evacuation route', 'During emergency,  air will be pushed in to tunnel opposite to the evacuation route', 3, 1, 0, 1, 0, 0, 0, 0),
+(14, 1, 2, 'Jet fans are available at Cross Overs', 'Jet fans are available at Cross Overs', 3, 1, 0, 1, 0, 0, 0, 0),
+(15, 1, 2, 'NFPA Stands for " National Fire Protection Association "', 'NFPA Stands for " National Fire Protection Association "', 3, 1, 0, 1, 0, 0, 0, 0),
+(16, 1, 2, 'Any personnel can entire to the TVS room', 'Any personnel can entire to the TVS room', 3, 1, 0, 1, 0, 0, 0, 0),
+(17, 1, 2, 'Piston Effect is “Behind the moving vehicle in tunnel, as air has been pushed away, suction is created, and air is pulled to flow into the tunnel”.', 'Piston Effect is “Behind the moving vehicle in tunnel, as air has been pushed away, suction is created, and air is pulled to flow into the tunnel”.', 3, 1, 0, 1, 0, 0, 0, 0),
+(18, 1, 2, 'In the event of Power Failure TVS will get the power from the Diesel Generator sets', 'In the event of Power Failure TVS will get the power from the Diesel Generator sets', 3, 1, 0, 1, 0, 0, 0, 0),
+(19, 1, 2, 'In the event of failure in OCC TVS SCADA, TVS can be controlled and Monitored by Station IBP panel', 'In the event of failure in OCC TVS SCADA, TVS can be controlled and Monitored by Station IBP panel', 3, 1, 0, 1, 0, 0, 0, 0),
+(20, 1, 2, 'In the event of complete failure of TVS, Trains can be allowed for short term', 'In the event of complete failure of TVS, Trains can be allowed for short term', 3, 1, 0, 1, 0, 0, 0, 0),
+(21, 1, 2, 'Jet fans are available in Portals/Tunnel Entry ', 'Jet fans are available in Portals/Tunnel Entry ', 3, 1, 0, 1, 0, 0, 0, 0),
+(22, 1, 2, 'TVS SCADA SIL - 2 (Safety Integrity Level) rated', 'TVS SCADA SIL - 2 (Safety Integrity Level) rated', 3, 1, 0, 1, 0, 0, 0, 0),
+(23, 1, 2, 'No Temperature Sensors inside the Tunnels', 'No Temperature Sensors inside the Tunnels', 3, 1, 0, 1, 0, 0, 0, 0),
+(24, 1, 2, 'In Congested Mode 48 C to be maintained in Tunnel by TVS System', 'In Congested Mode 48 C to be maintained in Tunnel by TVS System', 3, 1, 0, 1, 0, 0, 0, 0),
+(25, 1, 2, 'Tunnel velocity sensors will be used to operate Trackway Exhaust Fans', 'Tunnel velocity sensors will be used to operate Trackway Exhaust Fans', 3, 1, 0, 1, 0, 0, 0, 0),
+(26, 1, 2, 'In the Event of fire, Tunnel Ventilation Fan will extract the smoke and also douse the fire', 'In the Event of fire, Tunnel Ventilation Fan will extract the smoke and also douse the fire', 3, 1, 0, 1, 0, 0, 0, 0),
+(27, 1, 2, 'If needed, from a UG Station two adjustion station TVS can be operated ', 'If needed, from a UG Station two adjustion station TVS can be operated ', 3, 1, 0, 1, 0, 0, 0, 0),
+(28, 1, 2, 'In the event of Train fire in the station all fan in the station in Extract Mode ', 'In the event of Train fire in the station all fan in the station in Extract Mode ', 3, 1, 0, 1, 0, 0, 0, 0);
 
 -- --------------------------------------------------------
 
@@ -276,7 +393,7 @@ CREATE TABLE IF NOT EXISTS `question_type` (
   `question_type_id` int(11) NOT NULL AUTO_INCREMENT,
   `question_type` varchar(100) NOT NULL,
   PRIMARY KEY (`question_type_id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=5 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=6 ;
 
 --
 -- Dumping data for table `question_type`
@@ -286,7 +403,8 @@ INSERT INTO `question_type` (`question_type_id`, `question_type`) VALUES
 (1, 'Multiple Choice Single Answer'),
 (2, 'Multiple Choice Multiple Answer'),
 (3, 'Match the Column'),
-(4, 'Essay');
+(4, 'Identify the Parts'),
+(5, 'Essay');
 
 -- --------------------------------------------------------
 

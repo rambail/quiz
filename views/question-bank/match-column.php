@@ -10,7 +10,7 @@ $this->title = $model->question_bank_id;
 $this->params['breadcrumbs'][] = ['label' => 'Question Banks', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
-<div class="ohe-progress-form">
+<div class="match-column-form">
     
     <?php //print_r($sectionTensionLength);?>
 
@@ -31,7 +31,7 @@ $this->params['breadcrumbs'][] = $this->title;
 </div>
 
 
-<div class="ohe-progress-form">
+<div class="match-column-form">
         <?= Html::submitButton('Save', ['class' => $model->isNewRecord ? 'btn btn-success' : 'btn btn-primary']) ?>
 </div>
 <br>

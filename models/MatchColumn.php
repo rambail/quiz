@@ -9,6 +9,7 @@ use Yii;
  *
  * @property integer $match_column_id
  * @property integer $question_bank_id
+ * @property integer $image_id
  * @property string $column
  * @property string $column_match
  * @property double $score
@@ -30,7 +31,7 @@ class MatchColumn extends \yii\db\ActiveRecord
     {
         return [
             [['question_bank_id', 'column', 'column_match'], 'required'],
-            [['question_bank_id'], 'integer'],
+            [['question_bank_id', 'image_id'], 'integer'],
             [['score'], 'number'],
             [['column', 'column_match'], 'string', 'max' => 1000],
         ];
@@ -44,6 +45,7 @@ class MatchColumn extends \yii\db\ActiveRecord
         return [
             'match_column_id' => 'Match Column ID',
             'question_bank_id' => 'Question Bank ID',
+            'image_id' => 'Image ID',
             'column' => 'Column',
             'column_match' => 'Column Match',
             'score' => 'Score',

@@ -1450,3 +1450,1644 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1492350677.029
     'REQUEST_TIME' => 1492350677
 ]
+2017-04-29 12:02:40 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "zen/css/site.css".' in /var/www/html/quiz/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /var/www/html/quiz/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('zen/css/site.cs...', Array)
+#1 /var/www/html/quiz/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/html/quiz/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/html/quiz/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /var/www/html/quiz/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/quiz/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-04-29 12:02:39 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '0ee205d339a1eecd82defb99470c38b8327e37ea42ef5ae49e538b0e117594c8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"9p-TErmra153XvyTQOMin8sNIgvY3wH9\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://localhost/quiz/web/question-bank/create'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,en-GB;q=0.6'
+    'HTTP_COOKIE' => '_csrf=0ee205d339a1eecd82defb99470c38b8327e37ea42ef5ae49e538b0e117594c8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%229p-TErmra153XvyTQOMin8sNIgvY3wH9%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/quiz/web/index.php'
+    'REMOTE_PORT' => '43763'
+    'REDIRECT_URL' => '/quiz/web/zen/css/site.css'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/quiz/web/zen/css/site.css'
+    'SCRIPT_NAME' => '/quiz/web/index.php'
+    'PHP_SELF' => '/quiz/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1493467359.847
+    'REQUEST_TIME' => 1493467359
+]
+2017-04-29 12:08:06 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "zen/css/site.css".' in /var/www/html/quiz/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /var/www/html/quiz/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('zen/css/site.cs...', Array)
+#1 /var/www/html/quiz/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/html/quiz/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/html/quiz/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /var/www/html/quiz/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/quiz/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-04-29 12:08:06 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '0ee205d339a1eecd82defb99470c38b8327e37ea42ef5ae49e538b0e117594c8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"9p-TErmra153XvyTQOMin8sNIgvY3wH9\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://localhost/quiz/web/question-bank/upload-image?id=29'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,en-GB;q=0.6'
+    'HTTP_COOKIE' => '_csrf=0ee205d339a1eecd82defb99470c38b8327e37ea42ef5ae49e538b0e117594c8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%229p-TErmra153XvyTQOMin8sNIgvY3wH9%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/quiz/web/index.php'
+    'REMOTE_PORT' => '43792'
+    'REDIRECT_URL' => '/quiz/web/zen/css/site.css'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/quiz/web/zen/css/site.css'
+    'SCRIPT_NAME' => '/quiz/web/index.php'
+    'PHP_SELF' => '/quiz/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1493467686.357
+    'REQUEST_TIME' => 1493467686
+]
+2017-04-29 12:08:32 [127.0.0.1][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'move_uploaded_file(uploads/3_NlvPorzVu4-vCaMD4xijxQd4YahWdF.jpg): failed to open stream: Permission denied' in /var/www/html/quiz/vendor/yiisoft/yii2/web/UploadedFile.php:163
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'move_uploaded_f...', '/var/www/html/q...', 163, Array)
+#1 /var/www/html/quiz/vendor/yiisoft/yii2/web/UploadedFile.php(163): move_uploaded_file('/tmp/phpbESq1P', 'uploads/3_NlvPo...')
+#2 /var/www/html/quiz/models/StoreImage.php(64): yii\web\UploadedFile->saveAs('uploads/3_NlvPo...')
+#3 /var/www/html/quiz/controllers/QuestionBankController.php(334): app\models\StoreImage->upload()
+#4 [internal function]: app\controllers\QuestionBankController->actionUploadImage('29')
+#5 /var/www/html/quiz/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#6 /var/www/html/quiz/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#7 /var/www/html/quiz/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('upload-image', Array)
+#8 /var/www/html/quiz/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('question-bank/u...', Array)
+#9 /var/www/html/quiz/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 /var/www/html/quiz/web/index.php(12): yii\base\Application->run()
+#11 {main}
+2017-04-29 12:08:32 [127.0.0.1][-][-][info][application] $_GET = [
+    'id' => '29'
+]
+
+$_POST = [
+    '_csrf' => 'Ljdkd1l5UE0XR0kjHAs9P08GUUQBDykZf3gpHjdBIwNnUBIuag4YdA=='
+    'StoreImage' => [
+        'imageFile' => ''
+    ]
+    1 => 'YES'
+    2 => 'NO'
+]
+
+$_FILES = [
+    'StoreImage' => [
+        'name' => [
+            'imageFile' => 'front.jpg'
+        ]
+        'type' => [
+            'imageFile' => 'image/jpeg'
+        ]
+        'tmp_name' => [
+            'imageFile' => '/tmp/phpbESq1P'
+        ]
+        'error' => [
+            'imageFile' => 0
+        ]
+        'size' => [
+            'imageFile' => 42715
+        ]
+    ]
+]
+
+$_COOKIE = [
+    '_csrf' => '0ee205d339a1eecd82defb99470c38b8327e37ea42ef5ae49e538b0e117594c8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"9p-TErmra153XvyTQOMin8sNIgvY3wH9\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '43352'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundaryB8CM05tVguIXrDbK'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://localhost/quiz/web/question-bank/upload-image?id=29'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,en-GB;q=0.6'
+    'HTTP_COOKIE' => '_csrf=0ee205d339a1eecd82defb99470c38b8327e37ea42ef5ae49e538b0e117594c8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%229p-TErmra153XvyTQOMin8sNIgvY3wH9%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/quiz/web/index.php'
+    'REMOTE_PORT' => '43793'
+    'REDIRECT_QUERY_STRING' => 'id=29'
+    'REDIRECT_URL' => '/quiz/web/question-bank/upload-image'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'id=29'
+    'REQUEST_URI' => '/quiz/web/question-bank/upload-image?id=29'
+    'SCRIPT_NAME' => '/quiz/web/index.php'
+    'PHP_SELF' => '/quiz/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1493467712.59
+    'REQUEST_TIME' => 1493467712
+]
+2017-04-29 12:09:24 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'yii\imagine\Image' not found' in /var/www/html/quiz/models/StoreImage.php:65
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-04-29 12:09:24 [127.0.0.1][-][-][info][application] $_GET = [
+    'id' => '29'
+]
+
+$_POST = [
+    '_csrf' => 'Ljdkd1l5UE0XR0kjHAs9P08GUUQBDykZf3gpHjdBIwNnUBIuag4YdA=='
+    'StoreImage' => [
+        'imageFile' => ''
+    ]
+    1 => 'YES'
+    2 => 'NO'
+]
+
+$_FILES = [
+    'StoreImage' => [
+        'name' => [
+            'imageFile' => 'front.jpg'
+        ]
+        'type' => [
+            'imageFile' => 'image/jpeg'
+        ]
+        'tmp_name' => [
+            'imageFile' => '/tmp/phpq7VXVn'
+        ]
+        'error' => [
+            'imageFile' => 0
+        ]
+        'size' => [
+            'imageFile' => 42715
+        ]
+    ]
+]
+
+$_COOKIE = [
+    '_csrf' => '0ee205d339a1eecd82defb99470c38b8327e37ea42ef5ae49e538b0e117594c8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"9p-TErmra153XvyTQOMin8sNIgvY3wH9\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '43352'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundaryB8CM05tVguIXrDbK'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://localhost/quiz/web/question-bank/upload-image?id=29'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,en-GB;q=0.6'
+    'HTTP_COOKIE' => '_csrf=0ee205d339a1eecd82defb99470c38b8327e37ea42ef5ae49e538b0e117594c8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%229p-TErmra153XvyTQOMin8sNIgvY3wH9%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/quiz/web/index.php'
+    'REMOTE_PORT' => '43794'
+    'REDIRECT_QUERY_STRING' => 'id=29'
+    'REDIRECT_URL' => '/quiz/web/question-bank/upload-image'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'id=29'
+    'REQUEST_URI' => '/quiz/web/question-bank/upload-image?id=29'
+    'SCRIPT_NAME' => '/quiz/web/index.php'
+    'PHP_SELF' => '/quiz/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1493467764.451
+    'REQUEST_TIME' => 1493467764
+]
+2017-04-29 12:15:12 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'yii\imagine\Image' not found' in /var/www/html/quiz/models/StoreImage.php:65
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-04-29 12:15:12 [127.0.0.1][-][-][info][application] $_GET = [
+    'id' => '29'
+]
+
+$_POST = [
+    '_csrf' => 'Ljdkd1l5UE0XR0kjHAs9P08GUUQBDykZf3gpHjdBIwNnUBIuag4YdA=='
+    'StoreImage' => [
+        'imageFile' => ''
+    ]
+    1 => 'YES'
+    2 => 'NO'
+]
+
+$_FILES = [
+    'StoreImage' => [
+        'name' => [
+            'imageFile' => 'front.jpg'
+        ]
+        'type' => [
+            'imageFile' => 'image/jpeg'
+        ]
+        'tmp_name' => [
+            'imageFile' => '/tmp/phpIyyx2L'
+        ]
+        'error' => [
+            'imageFile' => 0
+        ]
+        'size' => [
+            'imageFile' => 42715
+        ]
+    ]
+]
+
+$_COOKIE = [
+    '_csrf' => '0ee205d339a1eecd82defb99470c38b8327e37ea42ef5ae49e538b0e117594c8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"9p-TErmra153XvyTQOMin8sNIgvY3wH9\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '43352'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundaryB8CM05tVguIXrDbK'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://localhost/quiz/web/question-bank/upload-image?id=29'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,en-GB;q=0.6'
+    'HTTP_COOKIE' => '_csrf=0ee205d339a1eecd82defb99470c38b8327e37ea42ef5ae49e538b0e117594c8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%229p-TErmra153XvyTQOMin8sNIgvY3wH9%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/quiz/web/index.php'
+    'REMOTE_PORT' => '43822'
+    'REDIRECT_QUERY_STRING' => 'id=29'
+    'REDIRECT_URL' => '/quiz/web/question-bank/upload-image'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'id=29'
+    'REQUEST_URI' => '/quiz/web/question-bank/upload-image?id=29'
+    'SCRIPT_NAME' => '/quiz/web/index.php'
+    'PHP_SELF' => '/quiz/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1493468112.365
+    'REQUEST_TIME' => 1493468112
+]
+2017-04-29 12:15:23 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "zen/css/site.css".' in /var/www/html/quiz/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /var/www/html/quiz/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('zen/css/site.cs...', Array)
+#1 /var/www/html/quiz/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/html/quiz/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/html/quiz/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /var/www/html/quiz/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/quiz/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-04-29 12:15:23 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '0ee205d339a1eecd82defb99470c38b8327e37ea42ef5ae49e538b0e117594c8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"9p-TErmra153XvyTQOMin8sNIgvY3wH9\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://localhost/quiz/web/question-bank/create'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,en-GB;q=0.6'
+    'HTTP_COOKIE' => '_csrf=0ee205d339a1eecd82defb99470c38b8327e37ea42ef5ae49e538b0e117594c8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%229p-TErmra153XvyTQOMin8sNIgvY3wH9%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/quiz/web/index.php'
+    'REMOTE_PORT' => '43828'
+    'REDIRECT_URL' => '/quiz/web/zen/css/site.css'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/quiz/web/zen/css/site.css'
+    'SCRIPT_NAME' => '/quiz/web/index.php'
+    'PHP_SELF' => '/quiz/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1493468123.297
+    'REQUEST_TIME' => 1493468123
+]
+2017-04-29 12:15:40 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "zen/css/site.css".' in /var/www/html/quiz/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /var/www/html/quiz/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('zen/css/site.cs...', Array)
+#1 /var/www/html/quiz/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/html/quiz/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/html/quiz/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /var/www/html/quiz/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/quiz/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-04-29 12:15:40 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '0ee205d339a1eecd82defb99470c38b8327e37ea42ef5ae49e538b0e117594c8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"9p-TErmra153XvyTQOMin8sNIgvY3wH9\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://localhost/quiz/web/question-bank/upload-image?id=30'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,en-GB;q=0.6'
+    'HTTP_COOKIE' => '_csrf=0ee205d339a1eecd82defb99470c38b8327e37ea42ef5ae49e538b0e117594c8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%229p-TErmra153XvyTQOMin8sNIgvY3wH9%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/quiz/web/index.php'
+    'REMOTE_PORT' => '43833'
+    'REDIRECT_URL' => '/quiz/web/zen/css/site.css'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/quiz/web/zen/css/site.css'
+    'SCRIPT_NAME' => '/quiz/web/index.php'
+    'PHP_SELF' => '/quiz/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1493468140.387
+    'REQUEST_TIME' => 1493468140
+]
+2017-04-29 12:15:59 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'yii\imagine\Image' not found' in /var/www/html/quiz/models/StoreImage.php:65
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-04-29 12:15:59 [127.0.0.1][-][-][info][application] $_GET = [
+    'id' => '30'
+]
+
+$_POST = [
+    '_csrf' => 'VXFKbGRGUnNsAWc4ITQ/ATRAf188MCsnBD4HBQp.IT0cFjw1VzEaSg=='
+    'StoreImage' => [
+        'imageFile' => ''
+    ]
+    1 => 'YES'
+    2 => 'sav'
+    3 => 'vd'
+    4 => 'asv'
+]
+
+$_FILES = [
+    'StoreImage' => [
+        'name' => [
+            'imageFile' => 'turnBack.jpg'
+        ]
+        'type' => [
+            'imageFile' => 'image/jpeg'
+        ]
+        'tmp_name' => [
+            'imageFile' => '/tmp/phpi5Nbyb'
+        ]
+        'error' => [
+            'imageFile' => 0
+        ]
+        'size' => [
+            'imageFile' => 32693
+        ]
+    ]
+]
+
+$_COOKIE = [
+    '_csrf' => '0ee205d339a1eecd82defb99470c38b8327e37ea42ef5ae49e538b0e117594c8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"9p-TErmra153XvyTQOMin8sNIgvY3wH9\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '33515'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundaryYekiAC9rGX7gSkLz'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://localhost/quiz/web/question-bank/upload-image?id=30'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,en-GB;q=0.6'
+    'HTTP_COOKIE' => '_csrf=0ee205d339a1eecd82defb99470c38b8327e37ea42ef5ae49e538b0e117594c8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%229p-TErmra153XvyTQOMin8sNIgvY3wH9%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/quiz/web/index.php'
+    'REMOTE_PORT' => '43834'
+    'REDIRECT_QUERY_STRING' => 'id=30'
+    'REDIRECT_URL' => '/quiz/web/question-bank/upload-image'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'id=30'
+    'REQUEST_URI' => '/quiz/web/question-bank/upload-image?id=30'
+    'SCRIPT_NAME' => '/quiz/web/index.php'
+    'PHP_SELF' => '/quiz/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1493468159.634
+    'REQUEST_TIME' => 1493468159
+]
+2017-04-29 14:13:41 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "zen/css/site.css".' in /var/www/html/quiz/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /var/www/html/quiz/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('zen/css/site.cs...', Array)
+#1 /var/www/html/quiz/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/html/quiz/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/html/quiz/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /var/www/html/quiz/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/quiz/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-04-29 14:13:41 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '0ff3906cb7b9348ec88aff250fe8ffc71223534a308eefbfede0e7173f9685fda:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"W6MBHxqNU_eGObxc1NR8pic0ipOM4wDv\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://localhost/quiz/web/question-bank/create'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,en-GB;q=0.6'
+    'HTTP_COOKIE' => '_csrf=0ff3906cb7b9348ec88aff250fe8ffc71223534a308eefbfede0e7173f9685fda%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22W6MBHxqNU_eGObxc1NR8pic0ipOM4wDv%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/quiz/web/index.php'
+    'REMOTE_PORT' => '44501'
+    'REDIRECT_URL' => '/quiz/web/zen/css/site.css'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/quiz/web/zen/css/site.css'
+    'SCRIPT_NAME' => '/quiz/web/index.php'
+    'PHP_SELF' => '/quiz/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1493475221.524
+    'REQUEST_TIME' => 1493475221
+]
+2017-04-29 14:13:58 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "zen/css/site.css".' in /var/www/html/quiz/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /var/www/html/quiz/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('zen/css/site.cs...', Array)
+#1 /var/www/html/quiz/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/html/quiz/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/html/quiz/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /var/www/html/quiz/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/quiz/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-04-29 14:13:58 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '0ff3906cb7b9348ec88aff250fe8ffc71223534a308eefbfede0e7173f9685fda:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"W6MBHxqNU_eGObxc1NR8pic0ipOM4wDv\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://localhost/quiz/web/question-bank/upload-image?id=31'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,en-GB;q=0.6'
+    'HTTP_COOKIE' => '_csrf=0ff3906cb7b9348ec88aff250fe8ffc71223534a308eefbfede0e7173f9685fda%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22W6MBHxqNU_eGObxc1NR8pic0ipOM4wDv%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/quiz/web/index.php'
+    'REMOTE_PORT' => '44540'
+    'REDIRECT_URL' => '/quiz/web/zen/css/site.css'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/quiz/web/zen/css/site.css'
+    'SCRIPT_NAME' => '/quiz/web/index.php'
+    'PHP_SELF' => '/quiz/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1493475238
+    'REQUEST_TIME' => 1493475238
+]
+2017-04-29 14:14:10 [127.0.0.1][-][-][error][Imagine\Exception\RuntimeException] exception 'ErrorException' with message 'imagejpeg(): Unable to open 'uploads/thumb/' for writing: Is a directory' in /var/www/html/quiz/vendor/imagine/imagine/lib/Imagine/Gd/Image.php:580
+Stack trace:
+#0 [internal function]: Imagine\Gd\Image->Imagine\Gd\{closure}(2, 'imagejpeg(): Un...', '/var/www/html/q...', 580, Array)
+#1 [internal function]: imagejpeg(Resource id #37, 'uploads/thumb/', 80)
+#2 /var/www/html/quiz/vendor/imagine/imagine/lib/Imagine/Gd/Image.php(580): call_user_func_array('imagejpeg', Array)
+#3 /var/www/html/quiz/vendor/imagine/imagine/lib/Imagine/Gd/Image.php(233): Imagine\Gd\Image->saveOrOutput('jpg', Array, 'uploads/thumb/')
+#4 /var/www/html/quiz/models/StoreImage.php(65): Imagine\Gd\Image->save('uploads/thumb/', Array)
+#5 /var/www/html/quiz/controllers/QuestionBankController.php(336): app\models\StoreImage->upload()
+#6 [internal function]: app\controllers\QuestionBankController->actionUploadImage('31')
+#7 /var/www/html/quiz/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#8 /var/www/html/quiz/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#9 /var/www/html/quiz/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('upload-image', Array)
+#10 /var/www/html/quiz/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('question-bank/u...', Array)
+#11 /var/www/html/quiz/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /var/www/html/quiz/web/index.php(12): yii\base\Application->run()
+#13 {main}
+
+Next exception 'Imagine\Exception\RuntimeException' with message 'imagejpeg(): Unable to open 'uploads/thumb/' for writing: Is a directory' in /var/www/html/quiz/vendor/imagine/imagine/lib/Imagine/Gd/Image.php:697
+Stack trace:
+#0 [internal function]: Imagine\Gd\Image->Imagine\Gd\{closure}(2, 'imagejpeg(): Un...', '/var/www/html/q...', 580, Array)
+#1 [internal function]: imagejpeg(Resource id #37, 'uploads/thumb/', 80)
+#2 /var/www/html/quiz/vendor/imagine/imagine/lib/Imagine/Gd/Image.php(580): call_user_func_array('imagejpeg', Array)
+#3 /var/www/html/quiz/vendor/imagine/imagine/lib/Imagine/Gd/Image.php(233): Imagine\Gd\Image->saveOrOutput('jpg', Array, 'uploads/thumb/')
+#4 /var/www/html/quiz/models/StoreImage.php(65): Imagine\Gd\Image->save('uploads/thumb/', Array)
+#5 /var/www/html/quiz/controllers/QuestionBankController.php(336): app\models\StoreImage->upload()
+#6 [internal function]: app\controllers\QuestionBankController->actionUploadImage('31')
+#7 /var/www/html/quiz/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#8 /var/www/html/quiz/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#9 /var/www/html/quiz/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('upload-image', Array)
+#10 /var/www/html/quiz/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('question-bank/u...', Array)
+#11 /var/www/html/quiz/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /var/www/html/quiz/web/index.php(12): yii\base\Application->run()
+#13 {main}
+2017-04-29 14:14:09 [127.0.0.1][-][-][info][application] $_GET = [
+    'id' => '31'
+]
+
+$_POST = [
+    '_csrf' => 'cmZlOXlOOUslUCh7MTZIBSc5AH42LEEoQyg3AQknWnsbFip0TTl9PQ=='
+    'StoreImage' => [
+        'imageFile' => ''
+    ]
+    1 => 'YES'
+    2 => 'NO'
+]
+
+$_FILES = [
+    'StoreImage' => [
+        'name' => [
+            'imageFile' => 'turnBack.jpg'
+        ]
+        'type' => [
+            'imageFile' => 'image/jpeg'
+        ]
+        'tmp_name' => [
+            'imageFile' => '/tmp/phpwbrFvq'
+        ]
+        'error' => [
+            'imageFile' => 0
+        ]
+        'size' => [
+            'imageFile' => 32693
+        ]
+    ]
+]
+
+$_COOKIE = [
+    '_csrf' => '0ff3906cb7b9348ec88aff250fe8ffc71223534a308eefbfede0e7173f9685fda:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"W6MBHxqNU_eGObxc1NR8pic0ipOM4wDv\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '33333'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundarycrAdNfJp9ZMswrNh'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://localhost/quiz/web/question-bank/upload-image?id=31'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,en-GB;q=0.6'
+    'HTTP_COOKIE' => '_csrf=0ff3906cb7b9348ec88aff250fe8ffc71223534a308eefbfede0e7173f9685fda%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22W6MBHxqNU_eGObxc1NR8pic0ipOM4wDv%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/quiz/web/index.php'
+    'REMOTE_PORT' => '44541'
+    'REDIRECT_QUERY_STRING' => 'id=31'
+    'REDIRECT_URL' => '/quiz/web/question-bank/upload-image'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'id=31'
+    'REQUEST_URI' => '/quiz/web/question-bank/upload-image?id=31'
+    'SCRIPT_NAME' => '/quiz/web/index.php'
+    'PHP_SELF' => '/quiz/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1493475249.681
+    'REQUEST_TIME' => 1493475249
+]
+2017-04-29 14:27:37 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "zen/css/site.css".' in /var/www/html/quiz/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /var/www/html/quiz/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('zen/css/site.cs...', Array)
+#1 /var/www/html/quiz/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/html/quiz/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/html/quiz/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /var/www/html/quiz/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/quiz/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-04-29 14:27:37 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '0ff3906cb7b9348ec88aff250fe8ffc71223534a308eefbfede0e7173f9685fda:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"W6MBHxqNU_eGObxc1NR8pic0ipOM4wDv\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://localhost/quiz/web/question-bank/create'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,en-GB;q=0.6'
+    'HTTP_COOKIE' => '_csrf=0ff3906cb7b9348ec88aff250fe8ffc71223534a308eefbfede0e7173f9685fda%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22W6MBHxqNU_eGObxc1NR8pic0ipOM4wDv%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/quiz/web/index.php'
+    'REMOTE_PORT' => '44942'
+    'REDIRECT_URL' => '/quiz/web/zen/css/site.css'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/quiz/web/zen/css/site.css'
+    'SCRIPT_NAME' => '/quiz/web/index.php'
+    'PHP_SELF' => '/quiz/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1493476057.462
+    'REQUEST_TIME' => 1493476057
+]
+2017-04-29 14:27:55 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "zen/css/site.css".' in /var/www/html/quiz/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /var/www/html/quiz/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('zen/css/site.cs...', Array)
+#1 /var/www/html/quiz/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/html/quiz/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/html/quiz/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /var/www/html/quiz/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/quiz/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-04-29 14:27:55 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '0ff3906cb7b9348ec88aff250fe8ffc71223534a308eefbfede0e7173f9685fda:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"W6MBHxqNU_eGObxc1NR8pic0ipOM4wDv\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://localhost/quiz/web/question-bank/upload-image?id=32'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,en-GB;q=0.6'
+    'HTTP_COOKIE' => '_csrf=0ff3906cb7b9348ec88aff250fe8ffc71223534a308eefbfede0e7173f9685fda%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22W6MBHxqNU_eGObxc1NR8pic0ipOM4wDv%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/quiz/web/index.php'
+    'REMOTE_PORT' => '44950'
+    'REDIRECT_URL' => '/quiz/web/zen/css/site.css'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/quiz/web/zen/css/site.css'
+    'SCRIPT_NAME' => '/quiz/web/index.php'
+    'PHP_SELF' => '/quiz/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1493476075.569
+    'REQUEST_TIME' => 1493476075
+]
+2017-04-29 14:28:04 [127.0.0.1][-][-][error][Imagine\Exception\RuntimeException] exception 'ErrorException' with message 'imagejpeg(): Unable to open 'uploads/thumb/' for writing: Is a directory' in /var/www/html/quiz/vendor/imagine/imagine/lib/Imagine/Gd/Image.php:580
+Stack trace:
+#0 [internal function]: Imagine\Gd\Image->Imagine\Gd\{closure}(2, 'imagejpeg(): Un...', '/var/www/html/q...', 580, Array)
+#1 [internal function]: imagejpeg(Resource id #24, 'uploads/thumb/', 80)
+#2 /var/www/html/quiz/vendor/imagine/imagine/lib/Imagine/Gd/Image.php(580): call_user_func_array('imagejpeg', Array)
+#3 /var/www/html/quiz/vendor/imagine/imagine/lib/Imagine/Gd/Image.php(233): Imagine\Gd\Image->saveOrOutput('jpg', Array, 'uploads/thumb/')
+#4 /var/www/html/quiz/controllers/QuestionBankController.php(338): Imagine\Gd\Image->save('uploads/thumb/', Array)
+#5 [internal function]: app\controllers\QuestionBankController->actionUploadImage('32')
+#6 /var/www/html/quiz/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#7 /var/www/html/quiz/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#8 /var/www/html/quiz/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('upload-image', Array)
+#9 /var/www/html/quiz/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('question-bank/u...', Array)
+#10 /var/www/html/quiz/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /var/www/html/quiz/web/index.php(12): yii\base\Application->run()
+#12 {main}
+
+Next exception 'Imagine\Exception\RuntimeException' with message 'imagejpeg(): Unable to open 'uploads/thumb/' for writing: Is a directory' in /var/www/html/quiz/vendor/imagine/imagine/lib/Imagine/Gd/Image.php:697
+Stack trace:
+#0 [internal function]: Imagine\Gd\Image->Imagine\Gd\{closure}(2, 'imagejpeg(): Un...', '/var/www/html/q...', 580, Array)
+#1 [internal function]: imagejpeg(Resource id #24, 'uploads/thumb/', 80)
+#2 /var/www/html/quiz/vendor/imagine/imagine/lib/Imagine/Gd/Image.php(580): call_user_func_array('imagejpeg', Array)
+#3 /var/www/html/quiz/vendor/imagine/imagine/lib/Imagine/Gd/Image.php(233): Imagine\Gd\Image->saveOrOutput('jpg', Array, 'uploads/thumb/')
+#4 /var/www/html/quiz/controllers/QuestionBankController.php(338): Imagine\Gd\Image->save('uploads/thumb/', Array)
+#5 [internal function]: app\controllers\QuestionBankController->actionUploadImage('32')
+#6 /var/www/html/quiz/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#7 /var/www/html/quiz/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#8 /var/www/html/quiz/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('upload-image', Array)
+#9 /var/www/html/quiz/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('question-bank/u...', Array)
+#10 /var/www/html/quiz/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /var/www/html/quiz/web/index.php(12): yii\base\Application->run()
+#12 {main}
+2017-04-29 14:28:04 [127.0.0.1][-][-][info][application] $_GET = [
+    'id' => '32'
+]
+
+$_POST = [
+    '_csrf' => 'c3FDLl9uYlMkRw5sFxYTHSYuJmkQDBowQj8RFi8HAWMaAQxjaxkmJQ=='
+    'StoreImage' => [
+        'imageFile' => ''
+    ]
+    1 => 'YES'
+    2 => 'woman'
+]
+
+$_FILES = [
+    'StoreImage' => [
+        'name' => [
+            'imageFile' => 'turnBack.jpg'
+        ]
+        'type' => [
+            'imageFile' => 'image/jpeg'
+        ]
+        'tmp_name' => [
+            'imageFile' => '/tmp/phpzoetFm'
+        ]
+        'error' => [
+            'imageFile' => 0
+        ]
+        'size' => [
+            'imageFile' => 32693
+        ]
+    ]
+]
+
+$_COOKIE = [
+    '_csrf' => '0ff3906cb7b9348ec88aff250fe8ffc71223534a308eefbfede0e7173f9685fda:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"W6MBHxqNU_eGObxc1NR8pic0ipOM4wDv\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '33336'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundaryYmjjFrnmmdvz5EVO'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://localhost/quiz/web/question-bank/upload-image?id=32'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,en-GB;q=0.6'
+    'HTTP_COOKIE' => '_csrf=0ff3906cb7b9348ec88aff250fe8ffc71223534a308eefbfede0e7173f9685fda%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22W6MBHxqNU_eGObxc1NR8pic0ipOM4wDv%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/quiz/web/index.php'
+    'REMOTE_PORT' => '44954'
+    'REDIRECT_QUERY_STRING' => 'id=32'
+    'REDIRECT_URL' => '/quiz/web/question-bank/upload-image'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'id=32'
+    'REQUEST_URI' => '/quiz/web/question-bank/upload-image?id=32'
+    'SCRIPT_NAME' => '/quiz/web/index.php'
+    'PHP_SELF' => '/quiz/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1493476084.838
+    'REQUEST_TIME' => 1493476084
+]
+2017-04-29 14:29:18 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "zen/css/site.css".' in /var/www/html/quiz/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /var/www/html/quiz/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('zen/css/site.cs...', Array)
+#1 /var/www/html/quiz/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/html/quiz/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/html/quiz/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /var/www/html/quiz/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/quiz/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-04-29 14:29:18 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '0ff3906cb7b9348ec88aff250fe8ffc71223534a308eefbfede0e7173f9685fda:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"W6MBHxqNU_eGObxc1NR8pic0ipOM4wDv\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://localhost/quiz/web/question-bank/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,en-GB;q=0.6'
+    'HTTP_COOKIE' => '_csrf=0ff3906cb7b9348ec88aff250fe8ffc71223534a308eefbfede0e7173f9685fda%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22W6MBHxqNU_eGObxc1NR8pic0ipOM4wDv%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/quiz/web/index.php'
+    'REMOTE_PORT' => '44964'
+    'REDIRECT_URL' => '/quiz/web/zen/css/site.css'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/quiz/web/zen/css/site.css'
+    'SCRIPT_NAME' => '/quiz/web/index.php'
+    'PHP_SELF' => '/quiz/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1493476158.921
+    'REQUEST_TIME' => 1493476158
+]
+2017-04-29 14:31:25 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "zen/css/site.css".' in /var/www/html/quiz/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /var/www/html/quiz/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('zen/css/site.cs...', Array)
+#1 /var/www/html/quiz/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/html/quiz/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/html/quiz/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /var/www/html/quiz/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/quiz/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-04-29 14:31:25 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '0ff3906cb7b9348ec88aff250fe8ffc71223534a308eefbfede0e7173f9685fda:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"W6MBHxqNU_eGObxc1NR8pic0ipOM4wDv\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://localhost/quiz/web/question-bank/create'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,en-GB;q=0.6'
+    'HTTP_COOKIE' => '_csrf=0ff3906cb7b9348ec88aff250fe8ffc71223534a308eefbfede0e7173f9685fda%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22W6MBHxqNU_eGObxc1NR8pic0ipOM4wDv%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/quiz/web/index.php'
+    'REMOTE_PORT' => '44978'
+    'REDIRECT_URL' => '/quiz/web/zen/css/site.css'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/quiz/web/zen/css/site.css'
+    'SCRIPT_NAME' => '/quiz/web/index.php'
+    'PHP_SELF' => '/quiz/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1493476285.869
+    'REQUEST_TIME' => 1493476285
+]
+2017-04-29 14:31:40 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "zen/css/site.css".' in /var/www/html/quiz/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /var/www/html/quiz/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('zen/css/site.cs...', Array)
+#1 /var/www/html/quiz/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/html/quiz/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/html/quiz/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /var/www/html/quiz/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/quiz/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-04-29 14:31:40 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '0ff3906cb7b9348ec88aff250fe8ffc71223534a308eefbfede0e7173f9685fda:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"W6MBHxqNU_eGObxc1NR8pic0ipOM4wDv\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://localhost/quiz/web/question-bank/upload-image?id=33'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,en-GB;q=0.6'
+    'HTTP_COOKIE' => '_csrf=0ff3906cb7b9348ec88aff250fe8ffc71223534a308eefbfede0e7173f9685fda%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22W6MBHxqNU_eGObxc1NR8pic0ipOM4wDv%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/quiz/web/index.php'
+    'REMOTE_PORT' => '44981'
+    'REDIRECT_URL' => '/quiz/web/zen/css/site.css'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/quiz/web/zen/css/site.css'
+    'SCRIPT_NAME' => '/quiz/web/index.php'
+    'PHP_SELF' => '/quiz/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1493476300.979
+    'REQUEST_TIME' => 1493476300
+]
+2017-04-29 14:31:52 [127.0.0.1][-][-][error][Imagine\Exception\RuntimeException] exception 'ErrorException' with message 'imagejpeg(): Unable to open 'uploads/thumb/30dbT_XeuoZ1gw4a7550WYsDHLKZf_I-.jpg' for writing: No such file or directory' in /var/www/html/quiz/vendor/imagine/imagine/lib/Imagine/Gd/Image.php:580
+Stack trace:
+#0 [internal function]: Imagine\Gd\Image->Imagine\Gd\{closure}(2, 'imagejpeg(): Un...', '/var/www/html/q...', 580, Array)
+#1 [internal function]: imagejpeg(Resource id #13, 'uploads/thumb/3...', 80)
+#2 /var/www/html/quiz/vendor/imagine/imagine/lib/Imagine/Gd/Image.php(580): call_user_func_array('imagejpeg', Array)
+#3 /var/www/html/quiz/vendor/imagine/imagine/lib/Imagine/Gd/Image.php(233): Imagine\Gd\Image->saveOrOutput('jpg', Array, 'uploads/thumb/3...')
+#4 /var/www/html/quiz/models/StoreImage.php(64): Imagine\Gd\Image->save('uploads/thumb/3...', Array)
+#5 /var/www/html/quiz/controllers/QuestionBankController.php(335): app\models\StoreImage->upload()
+#6 [internal function]: app\controllers\QuestionBankController->actionUploadImage('33')
+#7 /var/www/html/quiz/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#8 /var/www/html/quiz/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#9 /var/www/html/quiz/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('upload-image', Array)
+#10 /var/www/html/quiz/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('question-bank/u...', Array)
+#11 /var/www/html/quiz/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /var/www/html/quiz/web/index.php(12): yii\base\Application->run()
+#13 {main}
+
+Next exception 'Imagine\Exception\RuntimeException' with message 'imagejpeg(): Unable to open 'uploads/thumb/30dbT_XeuoZ1gw4a7550WYsDHLKZf_I-.jpg' for writing: No such file or directory' in /var/www/html/quiz/vendor/imagine/imagine/lib/Imagine/Gd/Image.php:697
+Stack trace:
+#0 [internal function]: Imagine\Gd\Image->Imagine\Gd\{closure}(2, 'imagejpeg(): Un...', '/var/www/html/q...', 580, Array)
+#1 [internal function]: imagejpeg(Resource id #13, 'uploads/thumb/3...', 80)
+#2 /var/www/html/quiz/vendor/imagine/imagine/lib/Imagine/Gd/Image.php(580): call_user_func_array('imagejpeg', Array)
+#3 /var/www/html/quiz/vendor/imagine/imagine/lib/Imagine/Gd/Image.php(233): Imagine\Gd\Image->saveOrOutput('jpg', Array, 'uploads/thumb/3...')
+#4 /var/www/html/quiz/models/StoreImage.php(64): Imagine\Gd\Image->save('uploads/thumb/3...', Array)
+#5 /var/www/html/quiz/controllers/QuestionBankController.php(335): app\models\StoreImage->upload()
+#6 [internal function]: app\controllers\QuestionBankController->actionUploadImage('33')
+#7 /var/www/html/quiz/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#8 /var/www/html/quiz/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#9 /var/www/html/quiz/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('upload-image', Array)
+#10 /var/www/html/quiz/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('question-bank/u...', Array)
+#11 /var/www/html/quiz/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /var/www/html/quiz/web/index.php(12): yii\base\Application->run()
+#13 {main}
+2017-04-29 14:31:52 [127.0.0.1][-][-][info][application] $_GET = [
+    'id' => '33'
+]
+
+$_POST = [
+    '_csrf' => 'YkNBZjNLOVE1dQwkezNIHzccJCF8KUEyUw0TXkMiWmELMw4rBzx9Jw=='
+    'StoreImage' => [
+        'imageFile' => ''
+    ]
+    1 => 'hand'
+    2 => 'leg'
+]
+
+$_FILES = [
+    'StoreImage' => [
+        'name' => [
+            'imageFile' => 'front.jpg'
+        ]
+        'type' => [
+            'imageFile' => 'image/jpeg'
+        ]
+        'tmp_name' => [
+            'imageFile' => '/tmp/phpYWSwCa'
+        ]
+        'error' => [
+            'imageFile' => 0
+        ]
+        'size' => [
+            'imageFile' => 42715
+        ]
+    ]
+]
+
+$_COOKIE = [
+    '_csrf' => '0ff3906cb7b9348ec88aff250fe8ffc71223534a308eefbfede0e7173f9685fda:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"W6MBHxqNU_eGObxc1NR8pic0ipOM4wDv\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '43354'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundaryIfGb04NFdWsB0TrM'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://localhost/quiz/web/question-bank/upload-image?id=33'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,en-GB;q=0.6'
+    'HTTP_COOKIE' => '_csrf=0ff3906cb7b9348ec88aff250fe8ffc71223534a308eefbfede0e7173f9685fda%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22W6MBHxqNU_eGObxc1NR8pic0ipOM4wDv%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/quiz/web/index.php'
+    'REMOTE_PORT' => '44990'
+    'REDIRECT_QUERY_STRING' => 'id=33'
+    'REDIRECT_URL' => '/quiz/web/question-bank/upload-image'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'id=33'
+    'REQUEST_URI' => '/quiz/web/question-bank/upload-image?id=33'
+    'SCRIPT_NAME' => '/quiz/web/index.php'
+    'PHP_SELF' => '/quiz/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1493476312.756
+    'REQUEST_TIME' => 1493476312
+]
+2017-04-29 14:32:30 [127.0.0.1][-][-][error][Imagine\Exception\RuntimeException] exception 'ErrorException' with message 'imagejpeg(): Unable to open 'uploads/thumb/wKdv0EqZmrfMDPy76aZ0UMkhJh0I1F6B.jpg' for writing: Permission denied' in /var/www/html/quiz/vendor/imagine/imagine/lib/Imagine/Gd/Image.php:580
+Stack trace:
+#0 [internal function]: Imagine\Gd\Image->Imagine\Gd\{closure}(2, 'imagejpeg(): Un...', '/var/www/html/q...', 580, Array)
+#1 [internal function]: imagejpeg(Resource id #13, 'uploads/thumb/w...', 80)
+#2 /var/www/html/quiz/vendor/imagine/imagine/lib/Imagine/Gd/Image.php(580): call_user_func_array('imagejpeg', Array)
+#3 /var/www/html/quiz/vendor/imagine/imagine/lib/Imagine/Gd/Image.php(233): Imagine\Gd\Image->saveOrOutput('jpg', Array, 'uploads/thumb/w...')
+#4 /var/www/html/quiz/models/StoreImage.php(64): Imagine\Gd\Image->save('uploads/thumb/w...', Array)
+#5 /var/www/html/quiz/controllers/QuestionBankController.php(335): app\models\StoreImage->upload()
+#6 [internal function]: app\controllers\QuestionBankController->actionUploadImage('33')
+#7 /var/www/html/quiz/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#8 /var/www/html/quiz/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#9 /var/www/html/quiz/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('upload-image', Array)
+#10 /var/www/html/quiz/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('question-bank/u...', Array)
+#11 /var/www/html/quiz/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /var/www/html/quiz/web/index.php(12): yii\base\Application->run()
+#13 {main}
+
+Next exception 'Imagine\Exception\RuntimeException' with message 'imagejpeg(): Unable to open 'uploads/thumb/wKdv0EqZmrfMDPy76aZ0UMkhJh0I1F6B.jpg' for writing: Permission denied' in /var/www/html/quiz/vendor/imagine/imagine/lib/Imagine/Gd/Image.php:697
+Stack trace:
+#0 [internal function]: Imagine\Gd\Image->Imagine\Gd\{closure}(2, 'imagejpeg(): Un...', '/var/www/html/q...', 580, Array)
+#1 [internal function]: imagejpeg(Resource id #13, 'uploads/thumb/w...', 80)
+#2 /var/www/html/quiz/vendor/imagine/imagine/lib/Imagine/Gd/Image.php(580): call_user_func_array('imagejpeg', Array)
+#3 /var/www/html/quiz/vendor/imagine/imagine/lib/Imagine/Gd/Image.php(233): Imagine\Gd\Image->saveOrOutput('jpg', Array, 'uploads/thumb/w...')
+#4 /var/www/html/quiz/models/StoreImage.php(64): Imagine\Gd\Image->save('uploads/thumb/w...', Array)
+#5 /var/www/html/quiz/controllers/QuestionBankController.php(335): app\models\StoreImage->upload()
+#6 [internal function]: app\controllers\QuestionBankController->actionUploadImage('33')
+#7 /var/www/html/quiz/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#8 /var/www/html/quiz/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#9 /var/www/html/quiz/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('upload-image', Array)
+#10 /var/www/html/quiz/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('question-bank/u...', Array)
+#11 /var/www/html/quiz/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /var/www/html/quiz/web/index.php(12): yii\base\Application->run()
+#13 {main}
+2017-04-29 14:32:30 [127.0.0.1][-][-][info][application] $_GET = [
+    'id' => '33'
+]
+
+$_POST = [
+    '_csrf' => 'YkNBZjNLOVE1dQwkezNIHzccJCF8KUEyUw0TXkMiWmELMw4rBzx9Jw=='
+    'StoreImage' => [
+        'imageFile' => ''
+    ]
+    1 => 'hand'
+    2 => 'leg'
+]
+
+$_FILES = [
+    'StoreImage' => [
+        'name' => [
+            'imageFile' => 'front.jpg'
+        ]
+        'type' => [
+            'imageFile' => 'image/jpeg'
+        ]
+        'tmp_name' => [
+            'imageFile' => '/tmp/phpPTSnTa'
+        ]
+        'error' => [
+            'imageFile' => 0
+        ]
+        'size' => [
+            'imageFile' => 42715
+        ]
+    ]
+]
+
+$_COOKIE = [
+    '_csrf' => '0ff3906cb7b9348ec88aff250fe8ffc71223534a308eefbfede0e7173f9685fda:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"W6MBHxqNU_eGObxc1NR8pic0ipOM4wDv\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '43354'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundaryIfGb04NFdWsB0TrM'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://localhost/quiz/web/question-bank/upload-image?id=33'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,en-GB;q=0.6'
+    'HTTP_COOKIE' => '_csrf=0ff3906cb7b9348ec88aff250fe8ffc71223534a308eefbfede0e7173f9685fda%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22W6MBHxqNU_eGObxc1NR8pic0ipOM4wDv%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/quiz/web/index.php'
+    'REMOTE_PORT' => '44991'
+    'REDIRECT_QUERY_STRING' => 'id=33'
+    'REDIRECT_URL' => '/quiz/web/question-bank/upload-image'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'id=33'
+    'REQUEST_URI' => '/quiz/web/question-bank/upload-image?id=33'
+    'SCRIPT_NAME' => '/quiz/web/index.php'
+    'PHP_SELF' => '/quiz/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1493476350.662
+    'REQUEST_TIME' => 1493476350
+]
+2017-04-29 14:33:03 [127.0.0.1][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'finfo_file(/tmp/phpQKeAlT): failed to open stream: No such file or directory' in /var/www/html/quiz/vendor/yiisoft/yii2/helpers/BaseFileHelper.php:148
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'finfo_file(/tmp...', '/var/www/html/q...', 148, Array)
+#1 /var/www/html/quiz/vendor/yiisoft/yii2/helpers/BaseFileHelper.php(148): finfo_file(Resource id #14, '/tmp/phpQKeAlT')
+#2 /var/www/html/quiz/vendor/yiisoft/yii2/validators/FileValidator.php(357): yii\helpers\BaseFileHelper::getMimeType('/tmp/phpQKeAlT', NULL, false)
+#3 /var/www/html/quiz/vendor/yiisoft/yii2/validators/FileValidator.php(251): yii\validators\FileValidator->validateExtension(Object(yii\web\UploadedFile))
+#4 /var/www/html/quiz/vendor/yiisoft/yii2/validators/FileValidator.php(215): yii\validators\FileValidator->validateValue(Object(yii\web\UploadedFile))
+#5 /var/www/html/quiz/vendor/yiisoft/yii2/validators/Validator.php(267): yii\validators\FileValidator->validateAttribute(Object(app\models\StoreImage), 'imageFile')
+#6 /var/www/html/quiz/vendor/yiisoft/yii2/base/Model.php(358): yii\validators\Validator->validateAttributes(Object(app\models\StoreImage), Array)
+#7 /var/www/html/quiz/vendor/yiisoft/yii2/db/ActiveRecord.php(455): yii\base\Model->validate(NULL)
+#8 /var/www/html/quiz/vendor/yiisoft/yii2/db/BaseActiveRecord.php(635): yii\db\ActiveRecord->insert(true, NULL)
+#9 /var/www/html/quiz/models/StoreImage.php(65): yii\db\BaseActiveRecord->save()
+#10 /var/www/html/quiz/controllers/QuestionBankController.php(335): app\models\StoreImage->upload()
+#11 [internal function]: app\controllers\QuestionBankController->actionUploadImage('33')
+#12 /var/www/html/quiz/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#13 /var/www/html/quiz/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#14 /var/www/html/quiz/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('upload-image', Array)
+#15 /var/www/html/quiz/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('question-bank/u...', Array)
+#16 /var/www/html/quiz/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#17 /var/www/html/quiz/web/index.php(12): yii\base\Application->run()
+#18 {main}
+2017-04-29 14:33:03 [127.0.0.1][-][-][info][application] $_GET = [
+    'id' => '33'
+]
+
+$_POST = [
+    '_csrf' => 'YkNBZjNLOVE1dQwkezNIHzccJCF8KUEyUw0TXkMiWmELMw4rBzx9Jw=='
+    'StoreImage' => [
+        'imageFile' => ''
+    ]
+    1 => 'hand'
+    2 => 'leg'
+]
+
+$_FILES = [
+    'StoreImage' => [
+        'name' => [
+            'imageFile' => 'front.jpg'
+        ]
+        'type' => [
+            'imageFile' => 'image/jpeg'
+        ]
+        'tmp_name' => [
+            'imageFile' => '/tmp/phpQKeAlT'
+        ]
+        'error' => [
+            'imageFile' => 0
+        ]
+        'size' => [
+            'imageFile' => 42715
+        ]
+    ]
+]
+
+$_COOKIE = [
+    '_csrf' => '0ff3906cb7b9348ec88aff250fe8ffc71223534a308eefbfede0e7173f9685fda:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"W6MBHxqNU_eGObxc1NR8pic0ipOM4wDv\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '43354'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundaryIfGb04NFdWsB0TrM'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://localhost/quiz/web/question-bank/upload-image?id=33'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,en-GB;q=0.6'
+    'HTTP_COOKIE' => '_csrf=0ff3906cb7b9348ec88aff250fe8ffc71223534a308eefbfede0e7173f9685fda%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22W6MBHxqNU_eGObxc1NR8pic0ipOM4wDv%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/quiz/web/index.php'
+    'REMOTE_PORT' => '44997'
+    'REDIRECT_QUERY_STRING' => 'id=33'
+    'REDIRECT_URL' => '/quiz/web/question-bank/upload-image'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'id=33'
+    'REQUEST_URI' => '/quiz/web/question-bank/upload-image?id=33'
+    'SCRIPT_NAME' => '/quiz/web/index.php'
+    'PHP_SELF' => '/quiz/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1493476383.256
+    'REQUEST_TIME' => 1493476383
+]
+2017-04-29 14:39:05 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "zen/css/site.css".' in /var/www/html/quiz/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /var/www/html/quiz/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('zen/css/site.cs...', Array)
+#1 /var/www/html/quiz/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/html/quiz/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/html/quiz/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /var/www/html/quiz/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/quiz/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-04-29 14:39:05 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '0ff3906cb7b9348ec88aff250fe8ffc71223534a308eefbfede0e7173f9685fda:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"W6MBHxqNU_eGObxc1NR8pic0ipOM4wDv\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://localhost/quiz/web/question-bank/create'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,en-GB;q=0.6'
+    'HTTP_COOKIE' => '_csrf=0ff3906cb7b9348ec88aff250fe8ffc71223534a308eefbfede0e7173f9685fda%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22W6MBHxqNU_eGObxc1NR8pic0ipOM4wDv%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/quiz/web/index.php'
+    'REMOTE_PORT' => '45102'
+    'REDIRECT_URL' => '/quiz/web/zen/css/site.css'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/quiz/web/zen/css/site.css'
+    'SCRIPT_NAME' => '/quiz/web/index.php'
+    'PHP_SELF' => '/quiz/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1493476745.8
+    'REQUEST_TIME' => 1493476745
+]
+2017-04-29 14:39:33 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "zen/css/site.css".' in /var/www/html/quiz/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /var/www/html/quiz/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('zen/css/site.cs...', Array)
+#1 /var/www/html/quiz/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/html/quiz/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/html/quiz/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /var/www/html/quiz/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/quiz/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-04-29 14:39:33 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '0ff3906cb7b9348ec88aff250fe8ffc71223534a308eefbfede0e7173f9685fda:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"W6MBHxqNU_eGObxc1NR8pic0ipOM4wDv\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://localhost/quiz/web/question-bank/upload-image?id=34'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,en-GB;q=0.6'
+    'HTTP_COOKIE' => '_csrf=0ff3906cb7b9348ec88aff250fe8ffc71223534a308eefbfede0e7173f9685fda%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22W6MBHxqNU_eGObxc1NR8pic0ipOM4wDv%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/quiz/web/index.php'
+    'REMOTE_PORT' => '45107'
+    'REDIRECT_URL' => '/quiz/web/zen/css/site.css'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/quiz/web/zen/css/site.css'
+    'SCRIPT_NAME' => '/quiz/web/index.php'
+    'PHP_SELF' => '/quiz/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1493476773.204
+    'REQUEST_TIME' => 1493476773
+]
+2017-04-29 14:39:47 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "zen/css/site.css".' in /var/www/html/quiz/vendor/yiisoft/yii2/base/Module.php:532
+Stack trace:
+#0 /var/www/html/quiz/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('zen/css/site.cs...', Array)
+#1 /var/www/html/quiz/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/html/quiz/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/html/quiz/vendor/yiisoft/yii2/web/Application.php:114
+Stack trace:
+#0 /var/www/html/quiz/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/quiz/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2017-04-29 14:39:47 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '0ff3906cb7b9348ec88aff250fe8ffc71223534a308eefbfede0e7173f9685fda:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"W6MBHxqNU_eGObxc1NR8pic0ipOM4wDv\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/css,*/*;q=0.1'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://localhost/quiz/web/question-bank/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,en-GB;q=0.6'
+    'HTTP_COOKIE' => '_csrf=0ff3906cb7b9348ec88aff250fe8ffc71223534a308eefbfede0e7173f9685fda%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22W6MBHxqNU_eGObxc1NR8pic0ipOM4wDv%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/quiz/web/index.php'
+    'REMOTE_PORT' => '45108'
+    'REDIRECT_URL' => '/quiz/web/zen/css/site.css'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/quiz/web/zen/css/site.css'
+    'SCRIPT_NAME' => '/quiz/web/index.php'
+    'PHP_SELF' => '/quiz/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1493476787.456
+    'REQUEST_TIME' => 1493476787
+]

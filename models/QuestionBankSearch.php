@@ -18,7 +18,7 @@ class QuestionBankSearch extends QuestionBank
     public function rules()
     {
         return [
-            [['question_bank_id', 'question_type_id', 'nos_option', 'category_id', 'level_id', 'no_time_served', 'no_time_corrected', 'no_time_incorrected', 'no_time_unattempted'], 'integer'],
+            [['question_bank_id', 'question_type_id', 'nos_option', 'category_id', 'level_id', 'has_figure', 'max_mark', 'no_time_served', 'no_time_corrected', 'no_time_incorrected', 'no_time_unattempted'], 'integer'],
             [['question', 'description'], 'safe'],
         ];
     }
@@ -64,6 +64,8 @@ class QuestionBankSearch extends QuestionBank
             'nos_option' => $this->nos_option,
             'category_id' => $this->category_id,
             'level_id' => $this->level_id,
+            'has_figure' => $this->has_figure, 
+            'max_mark' => $this->max_mark, 
             'no_time_served' => $this->no_time_served,
             'no_time_corrected' => $this->no_time_corrected,
             'no_time_incorrected' => $this->no_time_incorrected,

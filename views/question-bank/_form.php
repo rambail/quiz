@@ -24,6 +24,10 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'level_id')->textInput() ?>
 
+    <?= $form->field($model, 'has_figure')->textInput() ?> 
+ 
+    <?= $form->field($model, 'max_mark')->textInput() ?> 
+ 
     <?= $form->field($model, 'no_time_served')->textInput() ?>
 
     <?= $form->field($model, 'no_time_corrected')->textInput() ?>

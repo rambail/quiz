@@ -16,6 +16,11 @@ use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
 use yii\helpers\ArrayHelper;
 
+use app\models\StoreImage;
+use yii\web\UploadedFile;
+
+use app\models\UploadForm;
+
 /**
  * QuestionBankController implements the CRUD actions for QuestionBank model.
  */
@@ -88,6 +93,8 @@ class QuestionBankController extends Controller
         $this->view->params['level'] = $level;
         $this->view->params['nosOption'] = $nosOption;
 
+        $model->max_mark = 1;
+
         if(!empty($_POST)){
             $model->attributes=$_POST['QuestionBank'];
             $valid=$model->validate();
@@ -101,7 +108,10 @@ class QuestionBankController extends Controller
                 if ($model->question_type_id ==  3) { // It is of the type Match the columns
                     return $this->redirect(['match-column', 'id' => $model->question_bank_id]);
                 }
-                if ($model->question_type_id ==  4) { // It is of the type Essay
+                if ($model->question_type_id ==  4) { // It is of the type Match the columns
+                    return $this->redirect(['upload-image', 'id' => $model->question_bank_id]);
+                }
+                if ($model->question_type_id ==  5) { // It is of the type Essay
                     return $this->redirect(['essay', 'id' => $model->question_bank_id]);
                 }
             }
@@ -184,7 +194,7 @@ class QuestionBankController extends Controller
 
                 // One mark for correct answer
                 if ($i == $correct) {
-                    $optionModel->score = 1;
+                    $optionModel->score = $model->max_mark;// correct answer to be set for full marks
                 } 
 
                 //save the model
@@ -212,7 +222,7 @@ class QuestionBankController extends Controller
         if(!empty($_POST)){
             $correct = $_POST['correct']; // Sl.no of the correct answer
             $correctCount = count($correct); // number of correct answer
-            $score = 1/$correctCount; // fraction marks for each correct answer
+            $score = $model->max_mark/$correctCount; // fraction marks for each correct answer
             
             for( $i = 1; $i <= $model->nos_option; $i++ ) {
                 //reset the model, needed for saving in loop
@@ -234,7 +244,7 @@ class QuestionBankController extends Controller
             }
             return $this->redirect(['index']); // Go to theindex view of question bank
 
-        } else { // Go to option form
+        } else { // Go to multi option form
             return $this->render('multi-option', [
                 'model' => $model,
             ]);
@@ -250,7 +260,8 @@ class QuestionBankController extends Controller
         $model = $this->findModel($id);
 
         if(!empty($_POST)){
-            $score = 1/$model->nos_option; // fraction marks for each correct answer is reciprocal of column number
+            // fraction of marks for each correct answer 
+            $score = $model->max_mark/$model->nos_option; 
             
             for( $i = 1; $i <= $model->nos_option; $i++ ) {
                 //reset the model, needed for saving in loop
@@ -266,12 +277,13 @@ class QuestionBankController extends Controller
             }
             return $this->redirect(['index']); // Go to theindex view of question bank
 
-        } else { // Go to option form
+        } else { // Go to match column form
             return $this->render('match-column', [
                 'model' => $model,
             ]);
         }
     }
+
     /*
     * Function for Essay
     */
@@ -287,11 +299,88 @@ class QuestionBankController extends Controller
              
             return $this->redirect(['index']); // Go to theindex view of question bank
 
-        } else { // Go to option form
+        } else { // Go to essay form
             return $this->render('essay', [
                 'model' => $model,
             ]);
         }
     }
 
+    /*
+    * Function for uploading the figures. The model will have the save
+    * command to save into a specified directory.
+    */
+    public function actionUploadImage($id)
+    {
+        $model = new StoreImage();
+        $questionBankModel = $this->findModel($id);
+        $columnModel = new MatchColumn();
+
+        $question = $questionBankModel->question;
+        $description = $questionBankModel->description;
+        $questionNos = $questionBankModel->nos_option; 
+
+        if (Yii::$app->request->isPost) {
+            $model->imageFile = UploadedFile::getInstance($model, 'imageFile'); //image captured
+            
+            //Image has been submitted
+            // populate the field in image table
+            $model->question_bank_id = $id;
+            $imageName = Yii::$app->security->generateRandomString();
+            $model->file_name = $imageName . '.' . $model->imageFile->extension;
+            $model->nos_question = $questionBankModel->nos_option; 
+            $model->file_size = $model->imageFile->size; 
+
+
+            if ($model->upload()) {
+
+                // file is uploaded and saved
+                // populate the field in match column table
+                $score = $questionBankModel->max_mark/$questionBankModel->nos_option; 
+            
+                for( $i = 1; $i <= $questionBankModel->nos_option; $i++ ) {
+                    //reset the model, needed for saving in loop
+                    $columnModel->match_column_id = NULL; //primary key(auto increment id) id
+                    $columnModel->isNewRecord = true;
+
+                    //save the model
+                    $columnModel->question_bank_id = $id;
+                    $columnModel->image_id = $model->image_id;
+                    $columnModel->column = $i . ''; // column to be matched
+                    $columnModel->column_match = $_POST[ $i ]; // correct column
+                    $columnModel->score = $score; // equal score for each column
+                    $columnModel->save();
+                }
+            }
+            return $this->redirect(['index']); // Go to theindex view of question bank
+       }
+
+        return $this->render('upload-image', [
+            'model' => $model,
+            'question' => $question,
+            'description' => $description,
+            'questionNos' => $questionNos,
+            ]);
+    }
+
+/*
+    public function actionUpload()
+    {
+        $model = new Image();
+
+        if (Yii::$app->request->isPost) {
+            $model->imageFile = UploadedFile::getInstance($model, 'imageFile');
+            $model->question_bank_id = 10;
+            $model->file_name = $model->imageFile->baseName . '.' . $model->imageFile->extension;
+            $model->file_size = $model->imageFile->size; 
+            if ($model->save()) {
+                // file is uploaded successfully
+                
+                $model->upload();            
+            }
+        }
+
+        return $this->render('upload', ['model' => $model]);
+    }
+*/
 }
