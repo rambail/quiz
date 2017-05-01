@@ -32,6 +32,8 @@ use yii\widgets\ActiveForm;
     <?php // echo $form->field($model, 'has_figure') ?> 
  
     <?php // echo $form->field($model, 'max_mark') ?> 
+
+    <?= //$form->field($model, 'time_alloted')->textInput() ?>
  
     <?php // echo $form->field($model, 'no_time_served') ?>
 

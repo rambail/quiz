@@ -23,7 +23,7 @@ $this->params['breadcrumbs'][] = $this->title;
 		        <?= $form->field($model, 'category_id')->dropDownList($this->params['category'],[ 'prompt' => '--- choose from ---' ]) ?>
 		        <?= $form->field($model, 'question_type_id')->dropDownList($this->params['questionType'],[ 'prompt' => '--- choose from ---' ]) ?>
 		        <?= $form->field($model, 'level_id')->dropDownList($this->params['level'],[ 'prompt' => '--- choose from ---' ]) ?>
-		        <?= $form->field($model, 'nos_option')->dropDownList($this->params['nosOption'],[ 'prompt' => '--- choose from ---' ]) ?>
+		        <?= $form->field($model, 'nos_option')->textInput(); ?>
 			</div>
 		</div>
 	</div>
@@ -35,6 +35,9 @@ $this->params['breadcrumbs'][] = $this->title;
 		</div>
 		<div class="col-lg-2">
 				<?= $form->field($model, 'max_mark')->textInput(); ?>
+		</div>
+		<div class="col-lg-2">
+				<?= $form->field($model, 'time_alloted')->textInput(); ?>
 		</div>
 	</div>
 	<div class="row">

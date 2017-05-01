@@ -81,19 +81,22 @@ class QuestionBankController extends Controller
         $category = ArrayHelper::map(Category::find()->all(), 'category_id', 'category_name');
         $questionType = ArrayHelper::map(QuestionType::find()->all(), 'question_type_id', 'question_type');
         $level = ArrayHelper::map(Level::find()->all(), 'level_id', 'level_name');
+        /*
         $nosOption = [
                 2 => 2,
                 3 => 3,
                 4 => 4,
                 5 => 5,
                 ]; // Option value restricted to divisible values
+        */
 
         $this->view->params['category'] = $category;
         $this->view->params['questionType'] = $questionType;
         $this->view->params['level'] = $level;
-        $this->view->params['nosOption'] = $nosOption;
+        //$this->view->params['nosOption'] = $nosOption;
 
         $model->max_mark = 1;
+        $model->time_alloted = 60;
 
         if(!empty($_POST)){
             $model->attributes=$_POST['QuestionBank'];
@@ -122,7 +125,7 @@ class QuestionBankController extends Controller
                 'category'=>$category,
                 'questionType'=>$questionType,
                 'level'=>$level,
-                'nosOption'=>$nosOption,
+                //'nosOption'=>$nosOption,
             ]);
         }
 

@@ -342,6 +342,7 @@ CREATE TABLE IF NOT EXISTS `question_bank` (
   `level_id` int(11) NOT NULL DEFAULT '1',
   `has_figure` int(1) NOT NULL DEFAULT '0',
   `max_mark` int(11) NOT NULL DEFAULT '1',
+  `time_alloted` int(11) NOT NULL DEFAULT '60',
   `no_time_served` int(11) NOT NULL DEFAULT '0',
   `no_time_corrected` int(11) NOT NULL DEFAULT '0',
   `no_time_incorrected` int(11) NOT NULL DEFAULT '0',

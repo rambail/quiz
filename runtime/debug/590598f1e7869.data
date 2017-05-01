@@ -1,0 +1,282 @@
+a:11:{s:6:"config";a:5:{s:10:"phpVersion";s:17:"5.5.9-1ubuntu4.21";s:10:"yiiVersion";s:8:"2.0.11.2";s:11:"application";a:8:{s:3:"yii";s:8:"2.0.11.2";s:4:"name";s:14:"My Application";s:7:"version";s:3:"1.0";s:8:"language";s:5:"en-US";s:14:"sourceLanguage";s:5:"en-US";s:7:"charset";s:5:"UTF-8";s:3:"env";s:3:"dev";s:5:"debug";b:1;}s:3:"php";a:5:{s:7:"version";s:17:"5.5.9-1ubuntu4.21";s:6:"xdebug";b:0;s:3:"apc";b:0;s:8:"memcache";b:0;s:9:"memcached";b:0;}s:10:"extensions";a:8:{s:24:"yiisoft/yii2-swiftmailer";a:3:{s:4:"name";s:24:"yiisoft/yii2-swiftmailer";s:7:"version";s:7:"2.0.6.0";s:5:"alias";a:1:{s:16:"@yii/swiftmailer";s:50:"/var/www/html/quiz/vendor/yiisoft/yii2-swiftmailer";}}s:22:"yiisoft/yii2-bootstrap";a:3:{s:4:"name";s:22:"yiisoft/yii2-bootstrap";s:7:"version";s:7:"2.0.6.0";s:5:"alias";a:1:{s:14:"@yii/bootstrap";s:48:"/var/www/html/quiz/vendor/yiisoft/yii2-bootstrap";}}s:18:"yiisoft/yii2-debug";a:3:{s:4:"name";s:18:"yiisoft/yii2-debug";s:7:"version";s:7:"2.0.9.0";s:5:"alias";a:1:{s:10:"@yii/debug";s:44:"/var/www/html/quiz/vendor/yiisoft/yii2-debug";}}s:16:"yiisoft/yii2-gii";a:3:{s:4:"name";s:16:"yiisoft/yii2-gii";s:7:"version";s:7:"2.0.5.0";s:5:"alias";a:1:{s:8:"@yii/gii";s:42:"/var/www/html/quiz/vendor/yiisoft/yii2-gii";}}s:18:"yiisoft/yii2-faker";a:3:{s:4:"name";s:18:"yiisoft/yii2-faker";s:7:"version";s:7:"2.0.3.0";s:5:"alias";a:1:{s:10:"@yii/faker";s:44:"/var/www/html/quiz/vendor/yiisoft/yii2-faker";}}s:20:"yiisoft/yii2-imagine";a:3:{s:4:"name";s:20:"yiisoft/yii2-imagine";s:7:"version";s:7:"2.1.0.0";s:5:"alias";a:1:{s:12:"@yii/imagine";s:46:"/var/www/html/quiz/vendor/yiisoft/yii2-imagine";}}s:25:"kartik-v/yii2-krajee-base";a:3:{s:4:"name";s:25:"kartik-v/yii2-krajee-base";s:7:"version";s:7:"1.8.8.0";s:5:"alias";a:1:{s:12:"@kartik/base";s:51:"/var/www/html/quiz/vendor/kartik-v/yii2-krajee-base";}}s:30:"kartik-v/yii2-widget-fileinput";a:3:{s:4:"name";s:30:"kartik-v/yii2-widget-fileinput";s:7:"version";s:11:"9999999-dev";s:5:"alias";a:1:{s:12:"@kartik/file";s:56:"/var/www/html/quiz/vendor/kartik-v/yii2-widget-fileinput";}}}}s:7:"request";a:14:{s:7:"flashes";a:0:{}s:10:"statusCode";i:302;s:14:"requestHeaders";a:14:{s:4:"host";s:9:"localhost";s:10:"connection";s:10:"keep-alive";s:14:"content-length";s:3:"320";s:13:"cache-control";s:9:"max-age=0";s:6:"origin";s:16:"http://localhost";s:25:"upgrade-insecure-requests";s:1:"1";s:10:"user-agent";s:105:"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36";s:12:"content-type";s:33:"application/x-www-form-urlencoded";s:6:"accept";s:74:"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8";s:3:"dnt";s:1:"1";s:7:"referer";s:46:"http://localhost/quiz/web/question-bank/create";s:15:"accept-encoding";s:17:"gzip, deflate, br";s:15:"accept-language";s:26:"en-US,en;q=0.8,en-GB;q=0.6";s:6:"cookie";s:172:"_csrf=9ae0ca8a23b297662da3ad78a700dee2e563fbd17c9422b6da9180983adfd5f0a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%228KjLW9D6MdDsyTuFSIjUZIpoNCCMepfV%22%3B%7D";}s:15:"responseHeaders";a:3:{s:12:"X-Powered-By";s:21:"PHP/5.5.9-1ubuntu4.21";s:8:"Location";s:58:"http://localhost/quiz/web/question-bank/upload-image?id=39";s:12:"Content-Type";s:24:"text/html; charset=UTF-8";}s:5:"route";s:20:"question-bank/create";s:6:"action";s:54:"app\controllers\QuestionBankController::actionCreate()";s:12:"actionParams";a:0:{}s:11:"requestBody";a:3:{s:12:"Content Type";s:33:"application/x-www-form-urlencoded";s:3:"Raw";s:320:"_csrf=LjdfMXlDZDMWfDV9LnogBWNTG0IAFxF1fX41ZCMKFFxgdBx8HDMCZQ%3D%3D&QuestionBank%5Bcategory_id%5D=1&QuestionBank%5Bquestion_type_id%5D=4&QuestionBank%5Blevel_id%5D=1&QuestionBank%5Bnos_option%5D=2&QuestionBank%5Bquestion%5D=gjd&QuestionBank%5Bdescription%5D=dgj&QuestionBank%5Bhas_figure%5D=0&QuestionBank%5Bmax_mark%5D=1";s:17:"Decoded to Params";a:2:{s:5:"_csrf";s:56:"LjdfMXlDZDMWfDV9LnogBWNTG0IAFxF1fX41ZCMKFFxgdBx8HDMCZQ==";s:12:"QuestionBank";a:8:{s:11:"category_id";s:1:"1";s:16:"question_type_id";s:1:"4";s:8:"level_id";s:1:"1";s:10:"nos_option";s:1:"2";s:8:"question";s:3:"gjd";s:11:"description";s:3:"dgj";s:10:"has_figure";s:1:"0";s:8:"max_mark";s:1:"1";}}}s:6:"SERVER";a:39:{s:15:"REDIRECT_STATUS";s:3:"200";s:9:"HTTP_HOST";s:9:"localhost";s:15:"HTTP_CONNECTION";s:10:"keep-alive";s:14:"CONTENT_LENGTH";s:3:"320";s:18:"HTTP_CACHE_CONTROL";s:9:"max-age=0";s:11:"HTTP_ORIGIN";s:16:"http://localhost";s:30:"HTTP_UPGRADE_INSECURE_REQUESTS";s:1:"1";s:15:"HTTP_USER_AGENT";s:105:"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36";s:12:"CONTENT_TYPE";s:33:"application/x-www-form-urlencoded";s:11:"HTTP_ACCEPT";s:74:"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8";s:8:"HTTP_DNT";s:1:"1";s:12:"HTTP_REFERER";s:46:"http://localhost/quiz/web/question-bank/create";s:20:"HTTP_ACCEPT_ENCODING";s:17:"gzip, deflate, br";s:20:"HTTP_ACCEPT_LANGUAGE";s:26:"en-US,en;q=0.8,en-GB;q=0.6";s:11:"HTTP_COOKIE";s:172:"_csrf=9ae0ca8a23b297662da3ad78a700dee2e563fbd17c9422b6da9180983adfd5f0a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%228KjLW9D6MdDsyTuFSIjUZIpoNCCMepfV%22%3B%7D";s:4:"PATH";s:60:"/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin";s:16:"SERVER_SIGNATURE";s:69:"<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+";s:15:"SERVER_SOFTWARE";s:21:"Apache/2.4.7 (Ubuntu)";s:11:"SERVER_NAME";s:9:"localhost";s:11:"SERVER_ADDR";s:9:"127.0.0.1";s:11:"SERVER_PORT";s:2:"80";s:11:"REMOTE_ADDR";s:9:"127.0.0.1";s:13:"DOCUMENT_ROOT";s:13:"/var/www/html";s:14:"REQUEST_SCHEME";s:4:"http";s:14:"CONTEXT_PREFIX";s:0:"";s:21:"CONTEXT_DOCUMENT_ROOT";s:13:"/var/www/html";s:12:"SERVER_ADMIN";s:19:"webmaster@localhost";s:15:"SCRIPT_FILENAME";s:32:"/var/www/html/quiz/web/index.php";s:11:"REMOTE_PORT";s:5:"47661";s:12:"REDIRECT_URL";s:30:"/quiz/web/question-bank/create";s:17:"GATEWAY_INTERFACE";s:7:"CGI/1.1";s:15:"SERVER_PROTOCOL";s:8:"HTTP/1.1";s:14:"REQUEST_METHOD";s:4:"POST";s:12:"QUERY_STRING";s:0:"";s:11:"REQUEST_URI";s:30:"/quiz/web/question-bank/create";s:11:"SCRIPT_NAME";s:19:"/quiz/web/index.php";s:8:"PHP_SELF";s:19:"/quiz/web/index.php";s:18:"REQUEST_TIME_FLOAT";d:1493539057.931;s:12:"REQUEST_TIME";i:1493539057;}s:3:"GET";a:0:{}s:4:"POST";a:2:{s:5:"_csrf";s:56:"LjdfMXlDZDMWfDV9LnogBWNTG0IAFxF1fX41ZCMKFFxgdBx8HDMCZQ==";s:12:"QuestionBank";a:8:{s:11:"category_id";s:1:"1";s:16:"question_type_id";s:1:"4";s:8:"level_id";s:1:"1";s:10:"nos_option";s:1:"2";s:8:"question";s:3:"gjd";s:11:"description";s:3:"dgj";s:10:"has_figure";s:1:"0";s:8:"max_mark";s:1:"1";}}s:6:"COOKIE";a:1:{s:5:"_csrf";s:130:"9ae0ca8a23b297662da3ad78a700dee2e563fbd17c9422b6da9180983adfd5f0a:2:{i:0;s:5:"_csrf";i:1;s:32:"8KjLW9D6MdDsyTuFSIjUZIpoNCCMepfV";}";}s:5:"FILES";a:0:{}s:7:"SESSION";a:0:{}}s:3:"log";a:1:{s:8:"messages";a:21:{i:0;a:6:{i:0;s:33:"Bootstrap with yii\log\Dispatcher";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1493539057.9460411;i:4;a:0:{}i:5;i:1218168;}i:1;a:6:{i:0;s:21:"Loading module: debug";i:1;i:8;i:2;s:26:"yii\base\Module::getModule";i:3;d:1493539057.9461069;i:4;a:0:{}i:5;i:1221328;}i:2;a:6:{i:0;s:44:"Bootstrap with yii\debug\Module::bootstrap()";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1493539057.948117;i:4;a:0:{}i:5;i:1514088;}i:3;a:6:{i:0;s:19:"Loading module: gii";i:1;i:8;i:2;s:26:"yii\base\Module::getModule";i:3;d:1493539057.949223;i:4;a:0:{}i:5;i:1649496;}i:4;a:6:{i:0;s:42:"Bootstrap with yii\gii\Module::bootstrap()";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1493539057.949378;i:4;a:0:{}i:5;i:1685168;}i:12;a:6:{i:0;s:39:"Route requested: 'question-bank/create'";i:1;i:8;i:2;s:34:"yii\web\Application::handleRequest";i:3;d:1493539057.950206;i:4;a:0:{}i:5;i:1821264;}i:13;a:6:{i:0;s:34:"Route to run: question-bank/create";i:1;i:8;i:2;s:30:"yii\base\Controller::runAction";i:3;d:1493539057.950582;i:4;a:0:{}i:5;i:1930560;}i:14;a:6:{i:0;s:70:"Running action: app\controllers\QuestionBankController::actionCreate()";i:1;i:8;i:2;s:36:"yii\base\InlineAction::runWithParams";i:3;d:1493539057.9515491;i:4;a:0:{}i:5;i:2025584;}i:15;a:6:{i:0;s:24:"SELECT * FROM `category`";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1493539057.9550481;i:4;a:1:{i:0;a:5:{s:4:"file";s:57:"/var/www/html/quiz/controllers/QuestionBankController.php";s:4:"line";i:81;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:2650296;}i:16;a:6:{i:0;s:55:"Opening DB connection: mysql:host=localhost;dbname=quiz";i:1;i:4;i:2;s:23:"yii\db\Connection::open";i:3;d:1493539057.9552641;i:4;a:1:{i:0;a:5:{s:4:"file";s:57:"/var/www/html/quiz/controllers/QuestionBankController.php";s:4:"line";i:81;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:2659856;}i:21;a:6:{i:0;s:33:"SHOW FULL COLUMNS FROM `category`";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1493539057.9594319;i:4;a:1:{i:0;a:5:{s:4:"file";s:57:"/var/www/html/quiz/controllers/QuestionBankController.php";s:4:"line";i:81;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:2694360;}i:24;a:6:{i:0;s:603:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'category' AND kcu.table_name = 'category'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1493539057.9606471;i:4;a:1:{i:0;a:5:{s:4:"file";s:57:"/var/www/html/quiz/controllers/QuestionBankController.php";s:4:"line";i:81;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:2723336;}i:27;a:6:{i:0;s:29:"SELECT * FROM `question_type`";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1493539057.9615331;i:4;a:1:{i:0;a:5:{s:4:"file";s:57:"/var/www/html/quiz/controllers/QuestionBankController.php";s:4:"line";i:82;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:2770160;}i:30;a:6:{i:0;s:38:"SHOW FULL COLUMNS FROM `question_type`";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1493539057.961808;i:4;a:1:{i:0;a:5:{s:4:"file";s:57:"/var/www/html/quiz/controllers/QuestionBankController.php";s:4:"line";i:82;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:2792632;}i:33;a:6:{i:0;s:613:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'question_type' AND kcu.table_name = 'question_type'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1493539057.962739;i:4;a:1:{i:0;a:5:{s:4:"file";s:57:"/var/www/html/quiz/controllers/QuestionBankController.php";s:4:"line";i:82;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:2805928;}i:36;a:6:{i:0;s:21:"SELECT * FROM `level`";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1493539057.9637461;i:4;a:1:{i:0;a:5:{s:4:"file";s:57:"/var/www/html/quiz/controllers/QuestionBankController.php";s:4:"line";i:83;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:2851352;}i:39;a:6:{i:0;s:30:"SHOW FULL COLUMNS FROM `level`";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1493539057.964011;i:4;a:1:{i:0;a:5:{s:4:"file";s:57:"/var/www/html/quiz/controllers/QuestionBankController.php";s:4:"line";i:83;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:2872176;}i:42;a:6:{i:0;s:597:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'level' AND kcu.table_name = 'level'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1493539057.964937;i:4;a:1:{i:0;a:5:{s:4:"file";s:57:"/var/www/html/quiz/controllers/QuestionBankController.php";s:4:"line";i:83;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:2885224;}i:45;a:6:{i:0;s:38:"SHOW FULL COLUMNS FROM `question_bank`";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1493539057.9657021;i:4;a:1:{i:0;a:5:{s:4:"file";s:57:"/var/www/html/quiz/controllers/QuestionBankController.php";s:4:"line";i:96;s:8:"function";s:5:"__set";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:2887288;}i:48;a:6:{i:0;s:613:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'question_bank' AND kcu.table_name = 'question_bank'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1493539057.9669249;i:4;a:1:{i:0;a:5:{s:4:"file";s:57:"/var/www/html/quiz/controllers/QuestionBankController.php";s:4:"line";i:96;s:8:"function";s:5:"__set";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:2910328;}i:51;a:6:{i:0;s:182:"INSERT INTO `question_bank` (`max_mark`, `category_id`, `question_type_id`, `level_id`, `nos_option`, `question`, `description`, `has_figure`) VALUES (1, 1, 4, 1, 2, 'gjd', 'dgj', 0)";i:1;i:4;i:2;s:23:"yii\db\Command::execute";i:3;d:1493539057.971663;i:4;a:1:{i:0;a:5:{s:4:"file";s:57:"/var/www/html/quiz/controllers/QuestionBankController.php";s:4:"line";i:101;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:3129992;}}}s:9:"profiling";a:3:{s:6:"memory";i:3206536;s:4:"time";d:0.10995292663574219;s:8:"messages";a:26:{i:17;a:6:{i:0;s:55:"Opening DB connection: mysql:host=localhost;dbname=quiz";i:1;i:80;i:2;s:23:"yii\db\Connection::open";i:3;d:1493539057.9553339;i:4;a:1:{i:0;a:5:{s:4:"file";s:57:"/var/www/html/quiz/controllers/QuestionBankController.php";s:4:"line";i:81;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:2662504;}i:18;a:6:{i:0;s:55:"Opening DB connection: mysql:host=localhost;dbname=quiz";i:1;i:96;i:2;s:23:"yii\db\Connection::open";i:3;d:1493539057.9582629;i:4;a:1:{i:0;a:5:{s:4:"file";s:57:"/var/www/html/quiz/controllers/QuestionBankController.php";s:4:"line";i:81;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:2666584;}i:19;a:6:{i:0;s:24:"SELECT * FROM `category`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1493539057.95871;i:4;a:1:{i:0;a:5:{s:4:"file";s:57:"/var/www/html/quiz/controllers/QuestionBankController.php";s:4:"line";i:81;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:2664752;}i:20;a:6:{i:0;s:24:"SELECT * FROM `category`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1493539057.9591219;i:4;a:1:{i:0;a:5:{s:4:"file";s:57:"/var/www/html/quiz/controllers/QuestionBankController.php";s:4:"line";i:81;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:2670288;}i:22;a:6:{i:0;s:33:"SHOW FULL COLUMNS FROM `category`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1493539057.959547;i:4;a:1:{i:0;a:5:{s:4:"file";s:57:"/var/www/html/quiz/controllers/QuestionBankController.php";s:4:"line";i:81;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:2697584;}i:23;a:6:{i:0;s:33:"SHOW FULL COLUMNS FROM `category`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1493539057.960161;i:4;a:1:{i:0;a:5:{s:4:"file";s:57:"/var/www/html/quiz/controllers/QuestionBankController.php";s:4:"line";i:81;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:2704864;}i:25;a:6:{i:0;s:603:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'category' AND kcu.table_name = 'category'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1493539057.960717;i:4;a:1:{i:0;a:5:{s:4:"file";s:57:"/var/www/html/quiz/controllers/QuestionBankController.php";s:4:"line";i:81;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:2727480;}i:26;a:6:{i:0;s:603:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'category' AND kcu.table_name = 'category'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1493539057.961077;i:4;a:1:{i:0;a:5:{s:4:"file";s:57:"/var/www/html/quiz/controllers/QuestionBankController.php";s:4:"line";i:81;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:2730424;}i:28;a:6:{i:0;s:29:"SELECT * FROM `question_type`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1493539057.9615979;i:4;a:1:{i:0;a:5:{s:4:"file";s:57:"/var/www/html/quiz/controllers/QuestionBankController.php";s:4:"line";i:82;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:2773368;}i:29;a:6:{i:0;s:29:"SELECT * FROM `question_type`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1493539057.9617119;i:4;a:1:{i:0;a:5:{s:4:"file";s:57:"/var/www/html/quiz/controllers/QuestionBankController.php";s:4:"line";i:82;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:2779672;}i:31;a:6:{i:0;s:38:"SHOW FULL COLUMNS FROM `question_type`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1493539057.9618659;i:4;a:1:{i:0;a:5:{s:4:"file";s:57:"/var/www/html/quiz/controllers/QuestionBankController.php";s:4:"line";i:82;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:2795840;}i:32;a:6:{i:0;s:38:"SHOW FULL COLUMNS FROM `question_type`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1493539057.9624569;i:4;a:1:{i:0;a:5:{s:4:"file";s:57:"/var/www/html/quiz/controllers/QuestionBankController.php";s:4:"line";i:82;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:2803128;}i:34;a:6:{i:0;s:613:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'question_type' AND kcu.table_name = 'question_type'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1493539057.962801;i:4;a:1:{i:0;a:5:{s:4:"file";s:57:"/var/www/html/quiz/controllers/QuestionBankController.php";s:4:"line";i:82;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:2810080;}i:35;a:6:{i:0;s:613:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'question_type' AND kcu.table_name = 'question_type'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1493539057.963207;i:4;a:1:{i:0;a:5:{s:4:"file";s:57:"/var/www/html/quiz/controllers/QuestionBankController.php";s:4:"line";i:82;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:2813024;}i:37;a:6:{i:0;s:21:"SELECT * FROM `level`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1493539057.963805;i:4;a:1:{i:0;a:5:{s:4:"file";s:57:"/var/www/html/quiz/controllers/QuestionBankController.php";s:4:"line";i:83;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:2854544;}i:38;a:6:{i:0;s:21:"SELECT * FROM `level`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1493539057.9639089;i:4;a:1:{i:0;a:5:{s:4:"file";s:57:"/var/www/html/quiz/controllers/QuestionBankController.php";s:4:"line";i:83;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:2859408;}i:40;a:6:{i:0;s:30:"SHOW FULL COLUMNS FROM `level`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1493539057.9640629;i:4;a:1:{i:0;a:5:{s:4:"file";s:57:"/var/www/html/quiz/controllers/QuestionBankController.php";s:4:"line";i:83;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:2875384;}i:41;a:6:{i:0;s:30:"SHOW FULL COLUMNS FROM `level`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1493539057.9646201;i:4;a:1:{i:0;a:5:{s:4:"file";s:57:"/var/www/html/quiz/controllers/QuestionBankController.php";s:4:"line";i:83;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:2882664;}i:43;a:6:{i:0;s:597:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'level' AND kcu.table_name = 'level'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1493539057.9649911;i:4;a:1:{i:0;a:5:{s:4:"file";s:57:"/var/www/html/quiz/controllers/QuestionBankController.php";s:4:"line";i:83;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:2889368;}i:44;a:6:{i:0;s:597:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'level' AND kcu.table_name = 'level'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1493539057.965441;i:4;a:1:{i:0;a:5:{s:4:"file";s:57:"/var/www/html/quiz/controllers/QuestionBankController.php";s:4:"line";i:83;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:2892312;}i:46;a:6:{i:0;s:38:"SHOW FULL COLUMNS FROM `question_bank`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1493539057.9657509;i:4;a:1:{i:0;a:5:{s:4:"file";s:57:"/var/www/html/quiz/controllers/QuestionBankController.php";s:4:"line";i:96;s:8:"function";s:5:"__set";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:2890512;}i:47;a:6:{i:0;s:38:"SHOW FULL COLUMNS FROM `question_bank`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1493539057.966326;i:4;a:1:{i:0;a:5:{s:4:"file";s:57:"/var/www/html/quiz/controllers/QuestionBankController.php";s:4:"line";i:96;s:8:"function";s:5:"__set";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:2919376;}i:49;a:6:{i:0;s:613:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'question_bank' AND kcu.table_name = 'question_bank'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1493539057.9670269;i:4;a:1:{i:0;a:5:{s:4:"file";s:57:"/var/www/html/quiz/controllers/QuestionBankController.php";s:4:"line";i:96;s:8:"function";s:5:"__set";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:2914472;}i:50;a:6:{i:0;s:613:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'question_bank' AND kcu.table_name = 'question_bank'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1493539057.9675989;i:4;a:1:{i:0;a:5:{s:4:"file";s:57:"/var/www/html/quiz/controllers/QuestionBankController.php";s:4:"line";i:96;s:8:"function";s:5:"__set";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:2917416;}i:52;a:6:{i:0;s:182:"INSERT INTO `question_bank` (`max_mark`, `category_id`, `question_type_id`, `level_id`, `nos_option`, `question`, `description`, `has_figure`) VALUES (1, 1, 4, 1, 2, 'gjd', 'dgj', 0)";i:1;i:80;i:2;s:23:"yii\db\Command::execute";i:3;d:1493539057.972024;i:4;a:1:{i:0;a:5:{s:4:"file";s:57:"/var/www/html/quiz/controllers/QuestionBankController.php";s:4:"line";i:101;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:3131952;}i:53;a:6:{i:0;s:182:"INSERT INTO `question_bank` (`max_mark`, `category_id`, `question_type_id`, `level_id`, `nos_option`, `question`, `description`, `has_figure`) VALUES (1, 1, 4, 1, 2, 'gjd', 'dgj', 0)";i:1;i:96;i:2;s:23:"yii\db\Command::execute";i:3;d:1493539058.0424409;i:4;a:1:{i:0;a:5:{s:4:"file";s:57:"/var/www/html/quiz/controllers/QuestionBankController.php";s:4:"line";i:101;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:3134488;}}}s:2:"db";a:1:{s:8:"messages";a:24:{i:19;a:6:{i:0;s:24:"SELECT * FROM `category`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1493539057.95871;i:4;a:1:{i:0;a:5:{s:4:"file";s:57:"/var/www/html/quiz/controllers/QuestionBankController.php";s:4:"line";i:81;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:2664752;}i:20;a:6:{i:0;s:24:"SELECT * FROM `category`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1493539057.9591219;i:4;a:1:{i:0;a:5:{s:4:"file";s:57:"/var/www/html/quiz/controllers/QuestionBankController.php";s:4:"line";i:81;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:2670288;}i:22;a:6:{i:0;s:33:"SHOW FULL COLUMNS FROM `category`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1493539057.959547;i:4;a:1:{i:0;a:5:{s:4:"file";s:57:"/var/www/html/quiz/controllers/QuestionBankController.php";s:4:"line";i:81;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:2697584;}i:23;a:6:{i:0;s:33:"SHOW FULL COLUMNS FROM `category`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1493539057.960161;i:4;a:1:{i:0;a:5:{s:4:"file";s:57:"/var/www/html/quiz/controllers/QuestionBankController.php";s:4:"line";i:81;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:2704864;}i:25;a:6:{i:0;s:603:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'category' AND kcu.table_name = 'category'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1493539057.960717;i:4;a:1:{i:0;a:5:{s:4:"file";s:57:"/var/www/html/quiz/controllers/QuestionBankController.php";s:4:"line";i:81;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:2727480;}i:26;a:6:{i:0;s:603:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'category' AND kcu.table_name = 'category'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1493539057.961077;i:4;a:1:{i:0;a:5:{s:4:"file";s:57:"/var/www/html/quiz/controllers/QuestionBankController.php";s:4:"line";i:81;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:2730424;}i:28;a:6:{i:0;s:29:"SELECT * FROM `question_type`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1493539057.9615979;i:4;a:1:{i:0;a:5:{s:4:"file";s:57:"/var/www/html/quiz/controllers/QuestionBankController.php";s:4:"line";i:82;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:2773368;}i:29;a:6:{i:0;s:29:"SELECT * FROM `question_type`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1493539057.9617119;i:4;a:1:{i:0;a:5:{s:4:"file";s:57:"/var/www/html/quiz/controllers/QuestionBankController.php";s:4:"line";i:82;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:2779672;}i:31;a:6:{i:0;s:38:"SHOW FULL COLUMNS FROM `question_type`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1493539057.9618659;i:4;a:1:{i:0;a:5:{s:4:"file";s:57:"/var/www/html/quiz/controllers/QuestionBankController.php";s:4:"line";i:82;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:2795840;}i:32;a:6:{i:0;s:38:"SHOW FULL COLUMNS FROM `question_type`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1493539057.9624569;i:4;a:1:{i:0;a:5:{s:4:"file";s:57:"/var/www/html/quiz/controllers/QuestionBankController.php";s:4:"line";i:82;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:2803128;}i:34;a:6:{i:0;s:613:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'question_type' AND kcu.table_name = 'question_type'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1493539057.962801;i:4;a:1:{i:0;a:5:{s:4:"file";s:57:"/var/www/html/quiz/controllers/QuestionBankController.php";s:4:"line";i:82;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:2810080;}i:35;a:6:{i:0;s:613:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'question_type' AND kcu.table_name = 'question_type'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1493539057.963207;i:4;a:1:{i:0;a:5:{s:4:"file";s:57:"/var/www/html/quiz/controllers/QuestionBankController.php";s:4:"line";i:82;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:2813024;}i:37;a:6:{i:0;s:21:"SELECT * FROM `level`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1493539057.963805;i:4;a:1:{i:0;a:5:{s:4:"file";s:57:"/var/www/html/quiz/controllers/QuestionBankController.php";s:4:"line";i:83;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:2854544;}i:38;a:6:{i:0;s:21:"SELECT * FROM `level`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1493539057.9639089;i:4;a:1:{i:0;a:5:{s:4:"file";s:57:"/var/www/html/quiz/controllers/QuestionBankController.php";s:4:"line";i:83;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:2859408;}i:40;a:6:{i:0;s:30:"SHOW FULL COLUMNS FROM `level`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1493539057.9640629;i:4;a:1:{i:0;a:5:{s:4:"file";s:57:"/var/www/html/quiz/controllers/QuestionBankController.php";s:4:"line";i:83;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:2875384;}i:41;a:6:{i:0;s:30:"SHOW FULL COLUMNS FROM `level`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1493539057.9646201;i:4;a:1:{i:0;a:5:{s:4:"file";s:57:"/var/www/html/quiz/controllers/QuestionBankController.php";s:4:"line";i:83;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:2882664;}i:43;a:6:{i:0;s:597:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'level' AND kcu.table_name = 'level'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1493539057.9649911;i:4;a:1:{i:0;a:5:{s:4:"file";s:57:"/var/www/html/quiz/controllers/QuestionBankController.php";s:4:"line";i:83;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:2889368;}i:44;a:6:{i:0;s:597:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'level' AND kcu.table_name = 'level'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1493539057.965441;i:4;a:1:{i:0;a:5:{s:4:"file";s:57:"/var/www/html/quiz/controllers/QuestionBankController.php";s:4:"line";i:83;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:2892312;}i:46;a:6:{i:0;s:38:"SHOW FULL COLUMNS FROM `question_bank`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1493539057.9657509;i:4;a:1:{i:0;a:5:{s:4:"file";s:57:"/var/www/html/quiz/controllers/QuestionBankController.php";s:4:"line";i:96;s:8:"function";s:5:"__set";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:2890512;}i:47;a:6:{i:0;s:38:"SHOW FULL COLUMNS FROM `question_bank`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1493539057.966326;i:4;a:1:{i:0;a:5:{s:4:"file";s:57:"/var/www/html/quiz/controllers/QuestionBankController.php";s:4:"line";i:96;s:8:"function";s:5:"__set";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:2919376;}i:49;a:6:{i:0;s:613:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'question_bank' AND kcu.table_name = 'question_bank'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1493539057.9670269;i:4;a:1:{i:0;a:5:{s:4:"file";s:57:"/var/www/html/quiz/controllers/QuestionBankController.php";s:4:"line";i:96;s:8:"function";s:5:"__set";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:2914472;}i:50;a:6:{i:0;s:613:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'question_bank' AND kcu.table_name = 'question_bank'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1493539057.9675989;i:4;a:1:{i:0;a:5:{s:4:"file";s:57:"/var/www/html/quiz/controllers/QuestionBankController.php";s:4:"line";i:96;s:8:"function";s:5:"__set";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:2917416;}i:52;a:6:{i:0;s:182:"INSERT INTO `question_bank` (`max_mark`, `category_id`, `question_type_id`, `level_id`, `nos_option`, `question`, `description`, `has_figure`) VALUES (1, 1, 4, 1, 2, 'gjd', 'dgj', 0)";i:1;i:80;i:2;s:23:"yii\db\Command::execute";i:3;d:1493539057.972024;i:4;a:1:{i:0;a:5:{s:4:"file";s:57:"/var/www/html/quiz/controllers/QuestionBankController.php";s:4:"line";i:101;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:3131952;}i:53;a:6:{i:0;s:182:"INSERT INTO `question_bank` (`max_mark`, `category_id`, `question_type_id`, `level_id`, `nos_option`, `question`, `description`, `has_figure`) VALUES (1, 1, 4, 1, 2, 'gjd', 'dgj', 0)";i:1;i:96;i:2;s:23:"yii\db\Command::execute";i:3;d:1493539058.0424409;i:4;a:1:{i:0;a:5:{s:4:"file";s:57:"/var/www/html/quiz/controllers/QuestionBankController.php";s:4:"line";i:101;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:3134488;}}}s:6:"assets";a:0:{}s:4:"mail";a:0:{}s:8:"timeline";a:3:{s:5:"start";d:1493539057.93385;s:3:"end";d:1493539058.043992;s:6:"memory";i:3206536;}s:4:"user";N;s:6:"router";a:1:{s:8:"messages";a:7:{i:5;a:6:{i:0;a:3:{s:4:"rule";s:3:"gii";s:5:"match";b:0;s:6:"parent";N;}i:1;i:8;i:2;s:32:"yii\web\UrlManager::parseRequest";i:3;d:1493539057.950032;i:4;a:0:{}i:5;i:1811856;}i:6;a:6:{i:0;a:3:{s:4:"rule";s:12:"gii/<id:\w+>";s:5:"match";b:0;s:6:"parent";N;}i:1;i:8;i:2;s:32:"yii\web\UrlManager::parseRequest";i:3;d:1493539057.950073;i:4;a:0:{}i:5;i:1813672;}i:7;a:6:{i:0;a:3:{s:4:"rule";s:41:"gii/<controller:[\w\-]+>/<action:[\w\-]+>";s:5:"match";b:0;s:6:"parent";N;}i:1;i:8;i:2;s:32:"yii\web\UrlManager::parseRequest";i:3;d:1493539057.9501021;i:4;a:0:{}i:5;i:1815520;}i:8;a:6:{i:0;a:3:{s:4:"rule";s:5:"debug";s:5:"match";b:0;s:6:"parent";N;}i:1;i:8;i:2;s:32:"yii\web\UrlManager::parseRequest";i:3;d:1493539057.9501209;i:4;a:0:{}i:5;i:1817336;}i:9;a:6:{i:0;a:3:{s:4:"rule";s:43:"debug/<controller:[\w\-]+>/<action:[\w\-]+>";s:5:"match";b:0;s:6:"parent";N;}i:1;i:8;i:2;s:32:"yii\web\UrlManager::parseRequest";i:3;d:1493539057.9501441;i:4;a:0:{}i:5;i:1819248;}i:10;a:6:{i:0;a:3:{s:4:"rule";s:11:"<alias:\w+>";s:5:"match";b:0;s:6:"parent";N;}i:1;i:8;i:2;s:32:"yii\web\UrlManager::parseRequest";i:3;d:1493539057.9501691;i:4;a:0:{}i:5;i:1821064;}i:11;a:6:{i:0;s:55:"No matching URL rules. Using default URL parsing logic.";i:1;i:8;i:2;s:32:"yii\web\UrlManager::parseRequest";i:3;d:1493539057.950182;i:4;a:0:{}i:5;i:1822272;}}}s:7:"summary";a:9:{s:3:"tag";s:13:"590598f1e7869";s:3:"url";s:46:"http://localhost/quiz/web/question-bank/create";s:4:"ajax";i:0;s:6:"method";s:4:"POST";s:2:"ip";s:9:"127.0.0.1";s:4:"time";d:1493539057.931;s:10:"statusCode";i:302;s:8:"sqlCount";i:12;s:9:"mailCount";i:0;}}

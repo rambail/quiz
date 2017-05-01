@@ -2,6 +2,7 @@
 
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
+use kartik\file\FileInput;
 
 /* @var $this yii\web\View */
 /* @var $model app\models\QuestionBank */
@@ -18,7 +19,10 @@ $this->params['breadcrumbs'][] = $this->title;
     <h4> <?= $question ?></h4><br>
     <?= $description ?><br><br><br><br>
         <div class="row">
-            <?= $form->field($model, 'imageFile')->fileInput() ?>
+            <?= $form->field($model, 'imageFile')->widget(FileInput::classname(), 
+            [
+            'pluginOptions' => ['fileActionSettings' => ['showUploadedThumbs' => false,]],
+            ]) ?>
                 <br>
         </div> 
         <h4><?= 'Match the label and column description' ?></h4>

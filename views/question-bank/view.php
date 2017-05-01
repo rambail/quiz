@@ -37,6 +37,7 @@ $this->params['breadcrumbs'][] = $this->title;
             'level_id',
             'has_figure',
             'max_mark',
+            'time_alloted',
             'no_time_served',
             'no_time_corrected',
             'no_time_incorrected',
